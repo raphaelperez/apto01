@@ -1,0 +1,26 @@
+{
+  "apartamento": [
+    "levantamentos",
+    "demolicoeseinfra",
+    "cobrimentos",
+    "marmoraria",
+    "marcenaria"
+  ],
+  "salaecozinha": [
+    "levantamentos",
+    "demolicoeseinfra",
+    "cobrimentos",
+    "marmoraria",
+    "marcenaria"
+  ],
+  "varanda": [
+    "levantamentos",
+    "demolicoeseinfra",
+    "cobrimentos"
+  ],
+  "areadeservico": [
+    "levantamentos",
+    "demolicoeseinfra",
+    "cobrimentos"
+  ]
+}

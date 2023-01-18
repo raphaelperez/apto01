@@ -1,0 +1,107 @@
+{
+  "apartamento": {
+    "nome": "apartamento",
+    "etapas": [
+      {
+        "id": "Apto 01-Levantamentos",
+        "nomeCurto": "levantamentos",
+        "nome": "Levantamentos"
+      },
+      {
+        "id": "Apto 01-Projeto",
+        "nomeCurto": "projeto",
+        "nome": "Projeto"
+      },
+      {
+        "id": "Apto 01-Demoli\u00e7\u00f5es e Infra",
+        "nomeCurto": "demolicoeseinfra",
+        "nome": "Demoli\u00e7\u00f5es e Infra"
+      },
+      {
+        "id": "Apto 01-Cobrimentos",
+        "nomeCurto": "cobrimentos",
+        "nome": "Cobrimentos"
+      },
+      {
+        "id": "Apto 01-Marmoraria",
+        "nomeCurto": "marmoraria",
+        "nome": "Marmoraria"
+      },
+      {
+        "id": "Apto 01-Marcenaria",
+        "nomeCurto": "marcenaria",
+        "nome": "Marcenaria"
+      }
+    ]
+  },
+  "salaecozinha": {
+    "nome": "Sala e Cozinha",
+    "etapas": [
+      {
+        "id": "AMB-01-Levantamentos",
+        "nomeCurto": "levantamentos",
+        "nome": "Levantamentos"
+      },
+      {
+        "id": "AMB-01-Demoli\u00e7\u00f5es e Infra",
+        "nomeCurto": "demolicoeseinfra",
+        "nome": "Demoli\u00e7\u00f5es e Infra"
+      },
+      {
+        "id": "AMB-01-Cobrimentos",
+        "nomeCurto": "cobrimentos",
+        "nome": "Cobrimentos"
+      },
+      {
+        "id": "AMB-01-Marmoraria",
+        "nomeCurto": "marmoraria",
+        "nome": "Marmoraria"
+      },
+      {
+        "id": "AMB-01-Marcenaria",
+        "nomeCurto": "marcenaria",
+        "nome": "Marcenaria"
+      }
+    ]
+  },
+  "varanda": {
+    "nome": "Varanda",
+    "etapas": [
+      {
+        "id": "AMB-02-Levantamentos",
+        "nomeCurto": "levantamentos",
+        "nome": "Levantamentos"
+      },
+      {
+        "id": "AMB-02-Demoli\u00e7\u00f5es e Infra",
+        "nomeCurto": "demolicoeseinfra",
+        "nome": "Demoli\u00e7\u00f5es e Infra"
+      },
+      {
+        "id": "AMB-02-Cobrimentos",
+        "nomeCurto": "cobrimentos",
+        "nome": "Cobrimentos"
+      }
+    ]
+  },
+  "areadeservico": {
+    "nome": "\u00c1rea de Servi\u00e7o",
+    "etapas": [
+      {
+        "id": "AMB-03-Levantamentos",
+        "nomeCurto": "levantamentos",
+        "nome": "Levantamentos"
+      },
+      {
+        "id": "AMB-03-Demoli\u00e7\u00f5es e Infra",
+        "nomeCurto": "demolicoeseinfra",
+        "nome": "Demoli\u00e7\u00f5es e Infra"
+      },
+      {
+        "id": "AMB-03-Cobrimentos",
+        "nomeCurto": "cobrimentos",
+        "nome": "Cobrimentos"
+      }
+    ]
+  }
+}

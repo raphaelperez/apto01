@@ -1,0 +1,103 @@
+.menu {
+  position: absolute;
+  top: 88px;
+  left: 0px;
+  z-index: 4;
+}
+
+.menu-ancora {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  transition: left 0.5s;
+}
+
+.menu-ancora.fechado {
+  left: -205px;
+}
+
+.menu-quadro {
+  position: absolute;
+  overflow: hidden;
+  padding: 15px;
+  top: 0px;
+  left: 0px;
+  width: 175px;
+  height: 425px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.menu-toggle {
+  position: absolute;
+  top: 8px;
+  left: 205px;
+  border-radius: 0 8px 8px 0;
+  border-style: none;
+  background-color: #ffffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: left 0.5s;
+  transition-delay: 0.3s;
+  width: 38px;
+  height: 38px;
+}
+
+.menu-toggle:hover {
+  cursor: pointer;
+}
+
+.menu-toggle.fechado {
+  left: 150px;
+}
+
+button.voltar {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+button.voltar img {
+  width: 18px;
+  padding-right: 5px;
+}
+
+.voltar:hover {
+  cursor: pointer;
+}
+
+.menu-btn {
+  font-family: Oswald, monospace;
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin: 0px 10px;
+  background-color: transparent;
+  border: none;
+  color: #8c8c8c;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+}
+
+.menu-btn.ativo {
+  font-family: Oswald, monospace;
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin: 0px;
+  padding: 0px 10px;
+  background-color: #fcd2eb;
+  border: none;
+  border-radius: 3px;
+  color: #1a1a1a;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.menus {
+  position: absolute;
+  width: 175px;
+}

@@ -1,0 +1,866 @@
+{
+  "IfcCoveringPIN-0100": {
+    "material": "PIN-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIN-0101": {
+    "material": "PIN-01",
+    "nomeDoMaterial": "",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIN-0102": {
+    "material": "PIN-02",
+    "nomeDoMaterial": "",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIS-0100": {
+    "material": "PIS-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcCoveringPIS-0101": {
+    "material": "PIS-01",
+    "nomeDoMaterial": "",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringREV-0100": {
+    "material": "REV-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcPlateMDF-0101-M02-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M02-07": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-P05": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-06": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-P06": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-07": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-06": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M02-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M02-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-P03": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-07": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M02-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-P01": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-P04": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M02-06": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M01-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M03-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-M02-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0101-P02": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio a\u00e9reo da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G01-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G04-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M03-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G01-05": {
+    "material": "MDF-04",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G04-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M01-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G05-05": {
+    "material": "MDF-04",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G02-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M02-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M01-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-P03": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G05-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G03-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M02-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-P06": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G03-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G01-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G04-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M03-06": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G02-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M03-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M01-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M01-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-P01": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-P04": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G04-05": {
+    "material": "MDF-04",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G02-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M02-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G03-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M03-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G01-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M03-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M01-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G01-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G04-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G02-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M02-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-P02": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M02-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-P05": {
+    "material": "MDF-02",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G05-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G02-05": {
+    "material": "MDF-04",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G05-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-M03-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G03-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G03-05": {
+    "material": "MDF-04",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0102-G05-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Arm\u00e1rio da bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-M01-05": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-010301": {
+    "material": "MDF-03",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-M01-03": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-P02": {
+    "material": "MDF-03",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-M01-01": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-010302": {
+    "material": "MDF-03",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-010304": {
+    "material": "MDF-03",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-M01-06": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-M01-04": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-M01-02": {
+    "material": "MDF-01",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-010303": {
+    "material": "MDF-03",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMDF-0103-P01": {
+    "material": "MDF-03",
+    "nomeDoMaterial": "",
+    "montagem": "Torre do Refrigerador",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marcenaria"
+  },
+  "IfcPlateMRM-010104": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010102": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010103": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010101": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcSanitaryTerminalCUB-0101": {
+    "material": "CUB-0101",
+    "nomeDoMaterial": "Tramontina - Quadrum Undermount",
+    "montagem": "Bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010105": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Bancada da Cozinha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010204": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Ilha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010203": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Ilha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010202": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Ilha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcPlateMRM-010201": {
+    "material": "MRM-01",
+    "nomeDoMaterial": "",
+    "montagem": "Ilha",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Marmoraria"
+  },
+  "IfcSwitchingDeviceINT-02-0101": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcSwitchingDeviceINT-01-0101": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcSwitchingDeviceINT-01-0102": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcSwitchingDeviceINT-01-0103": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcOutletTOM-02-0101": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcOutletTOM-02-0102": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcOutletTOM-02-0103": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcOutletTOM-02-0104": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcOutletTOM-02-0105": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcFlowTerminalGAS-0100": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcFlowTerminalAGU-0100": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcFlowTerminalESG-0100": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Levantamentos"
+  },
+  "IfcPipeSegmentTUB-0101": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcPipeSegmentTUB-0102": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcFlowTerminalGAS-0101": {
+    "material": "El\u00e9trica",
+    "nomeDoMaterial": "Tomada ou Interruptor",
+    "ambiente": "Sala e Cozinha",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcCoveringREV-0200": {
+    "material": "REV-01",
+    "nomeDoMaterial": "none",
+    "ambiente": "Varanda",
+    "etapa": "Levantamentos"
+  },
+  "IfcCoveringPIN-0200": {
+    "material": "PIS-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "Varanda",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIN-0201": {
+    "material": "PIN-01",
+    "nomeDoMaterial": "",
+    "ambiente": "Varanda",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIS-0200": {
+    "material": "PIS-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "Varanda",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcCoveringPIS-0201": {
+    "material": "PIS-01",
+    "nomeDoMaterial": "",
+    "ambiente": "Varanda",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIN-0300": {
+    "material": "PIN-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "\u00c1rea de Servi\u00e7o",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIN-0301": {
+    "material": "PIN-02",
+    "nomeDoMaterial": "",
+    "ambiente": "\u00c1rea de Servi\u00e7o",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIN-0302": {
+    "material": "PIN-01",
+    "nomeDoMaterial": "",
+    "ambiente": "\u00c1rea de Servi\u00e7o",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringPIS-0300": {
+    "material": "PIS-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "\u00c1rea de Servi\u00e7o",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  },
+  "IfcCoveringPIS-0301": {
+    "material": "PIS-01",
+    "nomeDoMaterial": "",
+    "ambiente": "\u00c1rea de Servi\u00e7o",
+    "etapa": "Cobrimentos"
+  },
+  "IfcCoveringREV-0300": {
+    "material": "REV-00",
+    "nomeDoMaterial": "none",
+    "ambiente": "\u00c1rea de Servi\u00e7o",
+    "etapa": "Demoli\u00e7\u00f5es e Infra"
+  }
+}

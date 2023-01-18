@@ -1,0 +1,23 @@
+.gantt-ancora {
+  position: fixed;
+  left: 50vw;
+  top: 88px;
+}
+
+.gantt-iframe {
+  position: absolute;
+  left: -30vw;
+  top: 0px;
+  width: 60vw;
+  height: calc(var(--altura-da-janela) - 88px);
+  border: none;
+}
+
+@media (max-width: 900px) {
+  .gantt-iframe {
+    left: -50vw;
+    top: 50px;
+    width: 100vw;
+    height: calc(var(--altura-da-janela) - 88px);
+  }
+}

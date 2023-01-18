@@ -1,0 +1,98 @@
+{
+  "salaecozinha": {
+    "levantamentos": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "demolicoeseinfra": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "cobrimentos": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "marmoraria": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "marcenaria": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ]
+  },
+  "varanda": {
+    "levantamentos": [
+      "IfcDoorPOR-02"
+    ],
+    "demolicoeseinfra": [
+      "IfcDoorPOR-02"
+    ],
+    "cobrimentos": [
+      "IfcDoorPOR-02"
+    ]
+  },
+  "areadeservico": {
+    "levantamentos": [
+      "IfcDoorPOR-03"
+    ],
+    "demolicoeseinfra": [
+      "IfcDoorPOR-03"
+    ],
+    "cobrimentos": [
+      "IfcDoorPOR-03"
+    ]
+  },
+  "apartamento": {
+    "levantamentos": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "demolicoeseinfra": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "cobrimentos": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "marmoraria": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ],
+    "marcenaria": [
+      "IfcDoorPOR-01-01",
+      "IfcDoorPOR-02",
+      "IfcDoorPOR-03",
+      "IfcDoorPOR-04-01",
+      "IfcDoorPOR-05"
+    ]
+  }
+}

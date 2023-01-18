@@ -1,0 +1,66 @@
+.controle-ancora {
+  position: absolute;
+  left: 50vw;
+  top: var(--altura-da-janela);
+}
+
+.controle-grafico {
+  z-index: 2;
+  position: absolute;
+  top: -65px;
+  left: -50px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.controle-etapa {
+  z-index: 2;
+  position: absolute;
+  top: -65px;
+  left: 65px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.controle-btn {
+  flex-grow: 6;
+  background-color: #ffffff;
+  border: none;
+  font-family: Oswald, monospace;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #8c8c8c;
+}
+
+.controle-btn:hover {
+  cursor: pointer;
+}
+
+.controle-btn.esquerda {
+  border-radius: 8px 0px 0px 8px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.controle-btn.esquerda.ativo {
+  background-color: #fcd2eb;
+  color: #1a1a1a;
+}
+
+.controle-btn.direita {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.controle-btn.direita.ativo {
+  background-color: #fcd2eb;
+  color: #1a1a1a;
+}
+
+.controle-btn img {
+  width: 40px;
+}

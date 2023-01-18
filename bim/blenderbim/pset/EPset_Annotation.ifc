@@ -1,0 +1,11 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION((),'2;1');
+FILE_NAME('EPset_Annotation.ifc','2020-01-01T00:00:00',(),(),'EPset_Annotation','EPset_Annotation',$);
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+DATA;
+#4=IFCPROPERTYENUMERATION('Symbol',(IFCLABEL('rectangle-tag'),IFCLABEL('door-tag')),$);
+#8=IFCPROPERTYSETTEMPLATE('1H4VMj5V94yursA9kAiVqz',$,'New_Pset',$,.PSET_TYPEDRIVENONLY.,'IfcTypeObject',$);
+ENDSEC;
+END-ISO-10303-21;

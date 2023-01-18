@@ -1,0 +1,19 @@
+{
+  "projeto": null,
+  "apartamento": {
+    "nome": null,
+    "itens": []
+  },
+  "salaecozinha": {
+    "nome": "Sala e Cozinha",
+    "itens": []
+  },
+  "varanda": {
+    "nome": "Varanda",
+    "itens": []
+  },
+  "areadeservico": {
+    "nome": "\u00c1rea de Servi\u00e7o",
+    "itens": []
+  }
+}
