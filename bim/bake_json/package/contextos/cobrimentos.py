@@ -105,9 +105,6 @@ def gera_lista_forros(ifc_sub_etapa, nome_do_ambiente):
                 dict_forros[nome_do_forro]["area"] += area
             dict_forros[nome_do_forro]["area"] = round(dict_forros[nome_do_forro]["area"], 0)
 
-    print(dict_forros)
-    print(materiais_adicionados)
-
     for mat in materiais_adicionados:
         lista_forros.append(dict_forros[mat])
 

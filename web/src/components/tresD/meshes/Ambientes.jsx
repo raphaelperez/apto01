@@ -19,7 +19,7 @@ export default function Ambientes(props) {
     setEtapa(props.etapa);
   }, [props.etapa]);
 
-  const gltf = useGLTF(`./gltf/project.glb`);
+  const gltf = useGLTF(`./gltf/apto01.glb`);
 
   const meshes = [];
   const meshesPortas = [];
@@ -38,10 +38,10 @@ export default function Ambientes(props) {
   }
 
   const texturaDaEtapa = ultimaEtapaJson[ambiente][etapa];
-  const texture = useTexture(`./gltf/textures/${ambiente}-${texturaDaEtapa}.jpg`);
+  const texture = useTexture(`./gltf/textures/${ambiente}-${texturaDaEtapa}0000.jpg`);
   texture.flipY = false;
 
-  const texturePorta = useTexture(`./gltf/textures/${"portas"}-${texturaDaEtapa}.jpg`);
+  const texturePorta = useTexture(`./gltf/textures/${"portas"}-${texturaDaEtapa}0000.jpg`);
   texturePorta.flipY = false;
 
   let move = new Vector3(0.01, 0.01, 0.01);

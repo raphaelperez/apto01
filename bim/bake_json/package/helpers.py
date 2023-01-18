@@ -49,7 +49,6 @@ def gera_etapas_por_ambiente(ifc_ambientes, ifc_etapas_por_id):
                             for rel in etapa_de_construcao.HasAssignments:
                                 if rel.is_a() == "IfcRelAssignsToProduct":
                                     obj = rel.RelatingProduct
-                                    print(obj)
                                     if (
                                         obj.ContainedInStructure[0].RelatingStructure.LongName == nome_do_ambiente
                                         and (nome_da_etapa) not in etapas_adicionada

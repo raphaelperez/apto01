@@ -39,7 +39,7 @@
             "id": "APTO-PIN-01",
             "nome": "PIN-01",
             "tipo": "Tinta",
-            "area": 60.0,
+            "area": 59.0,
             "fabricante": "Suvinil",
             "especificacao": "Rende e Cobre Muito",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -56,7 +56,21 @@
             "id": "APTO-FOR-0101",
             "nome": "FOR-0101",
             "tipo": "Forro de gesso",
-            "area": 27.0,
+            "area": 26.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          },
+          {
+            "id": "APTO-FOR-0201",
+            "nome": "FOR-0201",
+            "tipo": "Forro de gesso",
+            "area": 26.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          },
+          {
+            "id": "APTO-FOR-0301",
+            "nome": "FOR-0301",
+            "tipo": "Forro de gesso",
+            "area": 7.0,
             "imgSource": "./img/forro_de_gesso.jpg"
           }
         ]
@@ -102,7 +116,7 @@
             "id": "APTO-PIN-01",
             "nome": "PIN-01",
             "tipo": "Tinta",
-            "area": 27.0,
+            "area": 26.0,
             "fabricante": "Suvinil",
             "especificacao": "Rende e Cobre Muito",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -119,7 +133,7 @@
             "id": "APTO-FOR-0101",
             "nome": "FOR-0101",
             "tipo": "Forro de gesso",
-            "area": 27.0,
+            "area": 26.0,
             "imgSource": "./img/forro_de_gesso.jpg"
           }
         ]
@@ -165,7 +179,15 @@
       },
       {
         "item": "Forros",
-        "forros": []
+        "forros": [
+          {
+            "id": "APTO-FOR-0201",
+            "nome": "FOR-0201",
+            "tipo": "Forro de gesso",
+            "area": 26.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ]
       }
     ]
   },
@@ -220,7 +242,15 @@
       },
       {
         "item": "Forros",
-        "forros": []
+        "forros": [
+          {
+            "id": "APTO-FOR-0301",
+            "nome": "FOR-0301",
+            "tipo": "Forro de gesso",
+            "area": 7.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ]
       }
     ]
   }

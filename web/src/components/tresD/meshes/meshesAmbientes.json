@@ -204,7 +204,6 @@
       "IfcPlateMDF-0103-M01-06",
       "IfcPlateMDF-0103-M01-04",
       "IfcPlateMDF-0103-M01-02",
-      "IfcPlateMDF-010303",
       "IfcPlateMDF-0103-P01"
     ]
   },
@@ -221,17 +220,23 @@
       "IfcCoveringREV-0200"
     ],
     "cobrimentos": [
+      "IfcCoveringPIN-0200",
       "IfcCoveringREV-0200",
+      "IfcCoveringFOR-0201",
       "IfcCoveringPIN-0201",
       "IfcCoveringPIS-0201"
     ],
     "marmoraria": [
+      "IfcCoveringPIN-0200",
       "IfcCoveringREV-0200",
+      "IfcCoveringFOR-0201",
       "IfcCoveringPIN-0201",
       "IfcCoveringPIS-0201"
     ],
     "marcenaria": [
+      "IfcCoveringPIN-0200",
       "IfcCoveringREV-0200",
+      "IfcCoveringFOR-0201",
       "IfcCoveringPIN-0201",
       "IfcCoveringPIS-0201"
     ]
@@ -249,16 +254,22 @@
       "IfcCoveringREV-0300"
     ],
     "cobrimentos": [
+      "IfcCoveringPIN-0300",
+      "IfcCoveringFOR-0301",
       "IfcCoveringPIN-0301",
       "IfcCoveringPIN-0302",
       "IfcCoveringPIS-0301"
     ],
     "marmoraria": [
+      "IfcCoveringPIN-0300",
+      "IfcCoveringFOR-0301",
       "IfcCoveringPIN-0301",
       "IfcCoveringPIN-0302",
       "IfcCoveringPIS-0301"
     ],
     "marcenaria": [
+      "IfcCoveringPIN-0300",
+      "IfcCoveringFOR-0301",
       "IfcCoveringPIN-0301",
       "IfcCoveringPIN-0302",
       "IfcCoveringPIS-0301"
