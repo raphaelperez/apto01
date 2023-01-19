@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import Toggle from "./Toogle";
 import Levantamentos from "./contextos/Levantamentos.jsx";
-import Demolicoes from "./contextos/Demolicoes.jsx";
+import DemolicoesEInfra from "./contextos/DemolicoesEInfra.jsx";
 import Cobrimentos from "./contextos/Cobrimentos.jsx";
 import Marmoraria from "./contextos/Marmoraria.jsx";
 import Marcenaria from "./contextos/Marcenaria.jsx";
@@ -30,7 +30,7 @@ export default function Painel(props) {
         <Toggle painelFechado={painelFechado} setPainelFechadoHandler={setPainelFechadoHandler} />
         <div className="painel-quadro">
           {props.etapa == "levantamentos" && <Levantamentos ambiente={props.ambiente} />}
-          {props.etapa == "demolicoes" && <Demolicoes ambiente={props.ambiente} />}
+          {props.etapa == "demolicoeseinfra" && <DemolicoesEInfra ambiente={props.ambiente} />}
           {props.etapa == "cobrimentos" && <Cobrimentos ambiente={props.ambiente} />}
           {props.etapa == "marmoraria" && <Marmoraria ambiente={props.ambiente} />}
           {props.etapa == "marcenaria" && <Marcenaria ambiente={props.ambiente} />}

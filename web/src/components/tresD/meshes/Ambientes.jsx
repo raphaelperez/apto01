@@ -11,6 +11,8 @@ export default function Ambientes(props) {
   const [ambiente, setAmbiente] = useState(props.ambiente);
   const [etapa, setEtapa] = useState(props.etapa);
 
+  console.log(ultimaEtapaJson[ambiente][etapa]);
+
   useEffect(() => {
     setAmbiente(props.ambiente);
   }, [props.ambiente]);

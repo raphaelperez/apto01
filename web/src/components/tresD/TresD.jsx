@@ -5,7 +5,7 @@ import Ambientes from "./meshes/Ambientes.jsx";
 import Apartamento from "./meshes/Apartamento";
 import Tag from "./tags/Tag";
 
-import "./three.css";
+import "./tresD.css";
 
 export default function TresD(props) {
   return (

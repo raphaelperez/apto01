@@ -42,7 +42,8 @@
       "IfcOutletTOM-02-0107",
       "IfcPipeSegmentTUB-0101",
       "IfcPipeSegmentTUB-0102",
-      "IfcFlowTerminalGAS-0101"
+      "IfcFlowTerminalGAS-0101",
+      "IfcPipeSegmentDUT-0101"
     ],
     "cobrimentos": [
       "IfcCoveringPIN-0101",
