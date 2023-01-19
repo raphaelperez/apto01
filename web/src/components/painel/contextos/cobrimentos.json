@@ -39,7 +39,7 @@
             "id": "APTO-PIN-01",
             "nome": "PIN-01",
             "tipo": "Tinta",
-            "area": 59.0,
+            "area": 60.0,
             "fabricante": "Suvinil",
             "especificacao": "Rende e Cobre Muito",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -53,25 +53,17 @@
         "item": "Forros",
         "forros": [
           {
-            "id": "APTO-FOR-0101",
-            "nome": "FOR-0101",
+            "id": "apartamentoForro de gesso",
             "tipo": "Forro de gesso",
-            "area": 26.0,
+            "area": 60.0,
             "imgSource": "./img/forro_de_gesso.jpg"
-          },
+          }
+        ],
+        "tabicas": [
           {
-            "id": "APTO-FOR-0201",
-            "nome": "FOR-0201",
-            "tipo": "Forro de gesso",
-            "area": 26.0,
-            "imgSource": "./img/forro_de_gesso.jpg"
-          },
-          {
-            "id": "APTO-FOR-0301",
-            "nome": "FOR-0301",
-            "tipo": "Forro de gesso",
-            "area": 7.0,
-            "imgSource": "./img/forro_de_gesso.jpg"
+            "id": "apartamentotabica",
+            "conjunto": "Tabica",
+            "comprimento": 25.1
           }
         ]
       }
@@ -116,7 +108,7 @@
             "id": "APTO-PIN-01",
             "nome": "PIN-01",
             "tipo": "Tinta",
-            "area": 26.0,
+            "area": 27.0,
             "fabricante": "Suvinil",
             "especificacao": "Rende e Cobre Muito",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -130,11 +122,17 @@
         "item": "Forros",
         "forros": [
           {
-            "id": "APTO-FOR-0101",
-            "nome": "FOR-0101",
+            "id": "Sala e CozinhaForro de gesso",
             "tipo": "Forro de gesso",
-            "area": 26.0,
+            "area": 27.0,
             "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ],
+        "tabicas": [
+          {
+            "id": "Sala e Cozinhatabica",
+            "conjunto": "Tabica",
+            "comprimento": 25.1
           }
         ]
       }
@@ -181,13 +179,13 @@
         "item": "Forros",
         "forros": [
           {
-            "id": "APTO-FOR-0201",
-            "nome": "FOR-0201",
+            "id": "VarandaForro de gesso",
             "tipo": "Forro de gesso",
             "area": 26.0,
             "imgSource": "./img/forro_de_gesso.jpg"
           }
-        ]
+        ],
+        "tabicas": []
       }
     ]
   },
@@ -244,13 +242,13 @@
         "item": "Forros",
         "forros": [
           {
-            "id": "APTO-FOR-0301",
-            "nome": "FOR-0301",
+            "id": "\u00c1rea de Servi\u00e7oForro de gesso",
             "tipo": "Forro de gesso",
             "area": 7.0,
             "imgSource": "./img/forro_de_gesso.jpg"
           }
-        ]
+        ],
+        "tabicas": []
       }
     ]
   }

@@ -88,27 +88,49 @@ def gera_lista_forros(ifc_sub_etapa, nome_do_ambiente):
     dict_forros = {}
     for rel in ifc_sub_etapa.HasAssignments:
         ifc_obj = rel.RelatingProduct
-        if nome_do_ambiente == "apartamento" or nome_do_ambiente == ifc_obj.ContainedInStructure[0].RelatingStructure.LongName:
-            nome_do_forro = ifc_obj.Name
+        if ifc_obj.is_a() == "IfcCovering" and (
+            nome_do_ambiente == "apartamento" or nome_do_ambiente == ifc_obj.ContainedInStructure[0].RelatingStructure.LongName
+        ):
             tipo_do_forro = ifc_obj.Description
-            if nome_do_forro not in materiais_adicionados:
-                dict_forros[nome_do_forro] = {
-                    "id": "APTO-" + nome_do_forro,
-                    "nome": nome_do_forro,
+            if tipo_do_forro not in materiais_adicionados:
+                dict_forros[tipo_do_forro] = {
+                    "id": nome_do_ambiente + tipo_do_forro,
                     "tipo": tipo_do_forro,
                     "area": ifc_obj.IsDefinedBy[0].RelatingPropertyDefinition.Quantities[0].AreaValue,
                 }
-                dict_forros[nome_do_forro]["imgSource"] = "./img/" + unidecode(tipo_do_forro.lower().replace(" ", "_")) + ".jpg"
-                materiais_adicionados.append(nome_do_forro)
+                dict_forros[tipo_do_forro]["imgSource"] = "./img/" + unidecode(tipo_do_forro.lower().replace(" ", "_")) + ".jpg"
+                materiais_adicionados.append(tipo_do_forro)
             else:
                 area = ifc_obj.IsDefinedBy[0].RelatingPropertyDefinition.Quantities[0].AreaValue
-                dict_forros[nome_do_forro]["area"] += area
-            dict_forros[nome_do_forro]["area"] = round(dict_forros[nome_do_forro]["area"], 0)
+                dict_forros[tipo_do_forro]["area"] += area
+            dict_forros[tipo_do_forro]["area"] = round(dict_forros[tipo_do_forro]["area"], 0)
 
     for mat in materiais_adicionados:
         lista_forros.append(dict_forros[mat])
 
     return lista_forros
+
+
+def tabicas(ifc_sub_etapa, nome_do_ambiente):
+    tabicas = []
+    conjuntos = {}
+    for rel in ifc_sub_etapa.HasAssignments:
+        ifc_obj = rel.RelatingProduct
+        if ifc_obj.is_a() == "IfcElementAssembly" and (
+            nome_do_ambiente == "apartamento" or nome_do_ambiente == ifc_obj.ContainedInStructure[0].RelatingStructure.LongName
+        ):
+            conjunto = ifc_obj.ObjectType
+            conjunto_curto = unidecode(conjunto.lower().replace(" ", ""))
+            conjuntos[conjunto_curto] = {"id": nome_do_ambiente + conjunto_curto, "conjunto": conjunto, "comprimento": 0}
+            for parte in ifc_obj.IsDecomposedBy[0].RelatedObjects:
+                conjuntos[conjunto_curto]["comprimento"] += parte.IsDefinedBy[0].RelatingPropertyDefinition.Quantities[0].LengthValue
+
+            conjuntos[conjunto_curto]["comprimento"] = round(conjuntos[conjunto_curto]["comprimento"], 1)
+
+    for conjunto in conjuntos:
+        tabicas.append(conjuntos[conjunto])
+
+    return tabicas
 
 
 def bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto):
@@ -142,6 +164,7 @@ def bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto):
                 elif nome_da_sub_etapa == "Forros":
                     obj_forros["item"] = "Forros"
                     obj_forros["forros"] = gera_lista_forros(ifc_sub_etapa, "apartamento")
+                    obj_forros["tabicas"] = tabicas(ifc_sub_etapa, "apartamento")
 
             dados_do_painel_de_contexto["apartamento"]["itens"].append(obj_per)
             dados_do_painel_de_contexto["apartamento"]["itens"].append(obj_pinturas)
@@ -180,6 +203,7 @@ def bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto):
                         elif nome_da_sub_etapa == "Forros":
                             obj_forros["item"] = "Forros"
                             obj_forros["forros"] = gera_lista_forros(ifc_sub_etapa, nome_do_ambiente)
+                            obj_forros["tabicas"] = tabicas(ifc_sub_etapa, nome_do_ambiente)
 
                     dados_do_painel_de_contexto[nome_curto_do_ambiente]["itens"].append(obj_per)
                     dados_do_painel_de_contexto[nome_curto_do_ambiente]["itens"].append(obj_pinturas)

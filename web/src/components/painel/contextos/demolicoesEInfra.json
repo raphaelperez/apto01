@@ -19,7 +19,7 @@
           {
             "id": "apartamento-infra-eletrica-conduites",
             "tipo": "Condu\u00edtes",
-            "comprimento": 0.6
+            "comprimento": 2.2
           }
         ]
       },
@@ -64,7 +64,7 @@
           {
             "id": "salaecozinha-infra-eletrica-conduites",
             "tipo": "Condu\u00edtes",
-            "comprimento": 0.6
+            "comprimento": 2.2
           }
         ]
       },

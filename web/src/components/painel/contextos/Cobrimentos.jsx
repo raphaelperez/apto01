@@ -2,6 +2,7 @@ import Acordeon from "./cards/Acordeon";
 import Per from "./cards/cobrimentos/Per.jsx";
 import Pintura from "./cards/cobrimentos/Pintura.jsx";
 import Forro from "./cards/cobrimentos/Forro.jsx";
+import Tabica from "./cards/cobrimentos/Tabica.jsx";
 
 import dados from "./cobrimentos.json";
 
@@ -15,7 +16,11 @@ export default function Cobrimentos(props) {
               dado["forros"].map((forro) => {
                 return <Forro forro={forro} />;
               })}
-            {dado["item"] == "Pinturas" &&
+            {dado["item"] == "Forros" &&
+              dado["tabicas"].map((tabica) => {
+                return <Tabica tabica={tabica} />;
+              })}
+            {dado["item"] == "Pintursas" &&
               dado["pinturas"].map((pintura) => {
                 return <Pintura pintura={pintura} />;
               })}
