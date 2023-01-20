@@ -63,7 +63,7 @@
           {
             "id": "apartamentotabica",
             "conjunto": "Tabica",
-            "comprimento": 25.1
+            "comprimento": 34.5
           }
         ]
       }
@@ -132,7 +132,7 @@
           {
             "id": "Sala e Cozinhatabica",
             "conjunto": "Tabica",
-            "comprimento": 25.1
+            "comprimento": 21.4
           }
         ]
       }
@@ -185,7 +185,13 @@
             "imgSource": "./img/forro_de_gesso.jpg"
           }
         ],
-        "tabicas": []
+        "tabicas": [
+          {
+            "id": "Varandatabica",
+            "conjunto": "Tabica",
+            "comprimento": 34.5
+          }
+        ]
       }
     ]
   },

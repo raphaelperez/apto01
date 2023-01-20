@@ -165,3 +165,16 @@ def bake_json(ifc_ambientes, ifc_etapas_por_id, etapas_por_ambiente, ifc_apartam
     json_meshes_portas = "../../web/src/components/tresD/meshes/meshesPortas.json"
     with open(json_meshes_portas, "w") as f:
         json.dump(meshes_portas, f, indent=2)
+
+    dados_de_etapas = {}
+
+    for ambiente in etapas_por_ambiente:
+        nome_curto_do_ambiente = etapas_por_ambiente[ambiente]["nome_curto"]
+        dados_de_etapas[nome_curto_do_ambiente] = {}
+        for etapa in etapas_por_ambiente[ambiente]["etapas"]:
+            nome_curto_da_etapa = etapa["nome_curto"]
+            dados_de_etapas[nome_curto_do_ambiente][nome_curto_da_etapa] = nome_curto_da_etapa
+
+    json_etapas = "../../web/src/components/tresD/meshes/etapas.json"
+    with open(json_etapas, "w") as f:
+        json.dump(dados_de_etapas, f, indent=2)

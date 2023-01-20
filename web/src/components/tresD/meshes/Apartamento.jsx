@@ -5,7 +5,7 @@ import { useTexture, useGLTF } from "@react-three/drei";
 import dadosDeMeshes from "./meshesAmbientes.json";
 import meshesPortasJson from "./meshesPortas.json";
 import posicoesJson from "./posicoes.json";
-import dadosDaUltimaEtapa from "./ultimaEtapa.json";
+import etapasJson from "./etapas.json";
 
 export default function Apartamento(props) {
   const [etapa, setEtapa] = useState(props.etapa);
@@ -37,8 +37,8 @@ export default function Apartamento(props) {
   }
 
   const textures = {};
-  for (const ambiente in dadosDaUltimaEtapa) {
-    const texturaDaEtapa = dadosDaUltimaEtapa[ambiente][etapa];
+  for (const ambiente in etapasJson) {
+    const texturaDaEtapa = etapasJson[ambiente][etapa];
     const texture = useTexture(`./gltf/textures/${ambiente}-${texturaDaEtapa}0000.jpg`);
     texture.flipY = false;
     textures[ambiente] = texture;

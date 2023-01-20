@@ -45,6 +45,12 @@
     ],
     "cobrimentos": [
       "IfcDoorPOR-02"
+    ],
+    "marmoraria": [
+      "IfcDoorPOR-02"
+    ],
+    "marcenaria": [
+      "IfcDoorPOR-02"
     ]
   },
   "areadeservico": {
@@ -55,6 +61,12 @@
       "IfcDoorPOR-03"
     ],
     "cobrimentos": [
+      "IfcDoorPOR-03"
+    ],
+    "marmoraria": [
+      "IfcDoorPOR-03"
+    ],
+    "marcenaria": [
       "IfcDoorPOR-03"
     ]
   },

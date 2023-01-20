@@ -76,6 +76,16 @@
         "id": "cobrimentos-Cobrimentos",
         "nomeCurto": "cobrimentos",
         "nome": "Cobrimentos"
+      },
+      {
+        "id": "marmoraria-Marmoraria",
+        "nomeCurto": "marmoraria",
+        "nome": "Marmoraria"
+      },
+      {
+        "id": "marcenaria-Marcenaria",
+        "nomeCurto": "marcenaria",
+        "nome": "Marcenaria"
       }
     ]
   },
@@ -96,6 +106,16 @@
         "id": "cobrimentos-Cobrimentos",
         "nomeCurto": "cobrimentos",
         "nome": "Cobrimentos"
+      },
+      {
+        "id": "marmoraria-Marmoraria",
+        "nomeCurto": "marmoraria",
+        "nome": "Marmoraria"
+      },
+      {
+        "id": "marcenaria-Marcenaria",
+        "nomeCurto": "marcenaria",
+        "nome": "Marcenaria"
       }
     ]
   }

@@ -16,11 +16,15 @@
   "varanda": [
     "levantamentos",
     "demolicoeseinfra",
-    "cobrimentos"
+    "cobrimentos",
+    "marmoraria",
+    "marcenaria"
   ],
   "areadeservico": [
     "levantamentos",
     "demolicoeseinfra",
-    "cobrimentos"
+    "cobrimentos",
+    "marmoraria",
+    "marcenaria"
   ]
 }

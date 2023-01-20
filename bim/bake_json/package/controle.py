@@ -6,15 +6,15 @@ def bake_json(etapas_por_ambiente):
     dados_do_controle = {}
     dados_do_controle["apartamento"] = []
 
+    adicionado_a_apartamento = []
     for ambiente in etapas_por_ambiente:
-        nome_do_ambiente = etapas_por_ambiente[ambiente]["nome_curto"]
-        dados_do_controle[nome_do_ambiente] = []
-
+        dados_do_controle[ambiente] = []
         for etapa in etapas_por_ambiente[ambiente]["etapas"]:
-            nome_da_etapa = etapa["nome_curto"]
-            dados_do_controle[nome_do_ambiente].append(nome_da_etapa)
-            if nome_da_etapa not in dados_do_controle["apartamento"]:
-                dados_do_controle["apartamento"].append(nome_da_etapa)
+            nome_curto_da_etapa = etapa["nome_curto"]
+            dados_do_controle[ambiente].append(nome_curto_da_etapa)
+            if nome_curto_da_etapa not in adicionado_a_apartamento:
+                dados_do_controle["apartamento"].append(nome_curto_da_etapa)
+                adicionado_a_apartamento.append(nome_curto_da_etapa)
 
     json_do_controle = "../../web/src/components/controle/controle.json"
     with open(json_do_controle, "w") as f:

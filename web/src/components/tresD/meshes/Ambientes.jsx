@@ -5,13 +5,13 @@ import { useTexture, useGLTF } from "@react-three/drei";
 import meshesAmbientesJson from "./meshesAmbientes.json";
 import meshesPortasJson from "./meshesPortas.json";
 import posicoesJson from "./posicoes.json";
-import ultimaEtapaJson from "./ultimaEtapa.json";
+import etapasJson from "./etapas.json";
 
 export default function Ambientes(props) {
   const [ambiente, setAmbiente] = useState(props.ambiente);
   const [etapa, setEtapa] = useState(props.etapa);
 
-  console.log(ultimaEtapaJson[ambiente][etapa]);
+  console.log(etapasJson[ambiente][etapa]);
 
   useEffect(() => {
     setAmbiente(props.ambiente);
@@ -32,14 +32,14 @@ export default function Ambientes(props) {
         meshes.push(child);
       }
     }
-    for (const mesh of meshesPortasJson[ambiente][ultimaEtapaJson[ambiente][etapa]]) {
+    for (const mesh of meshesPortasJson[ambiente][etapasJson[ambiente][etapa]]) {
       if (child.name == mesh) {
         meshesPortas.push(child);
       }
     }
   }
 
-  const texturaDaEtapa = ultimaEtapaJson[ambiente][etapa];
+  const texturaDaEtapa = etapasJson[ambiente][etapa];
   const texture = useTexture(`./gltf/textures/${ambiente}-${texturaDaEtapa}0000.jpg`);
   texture.flipY = false;
 

@@ -26,7 +26,7 @@ etapas_por_ambiente = helpers.gera_etapas_por_ambiente(ifc_ambientes, ifc_etapas
 
 contexto.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
 menu_principal.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
-menu_do_ambiente.bake_json(etapas_por_ambiente)
+menu_do_ambiente.bake_json(ifc_etapas_por_id, ifc_ambientes, etapas_por_ambiente)
 # tags.bake_json(ifc_ambientes)
 controle.bake_json(etapas_por_ambiente)
 

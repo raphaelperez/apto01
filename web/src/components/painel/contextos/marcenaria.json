@@ -92,6 +92,38 @@
         "acessorios": []
       },
       {
+        "item": "Painel da Sala",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 9.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Painel Varanda",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 7.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
         "item": "Geral",
         "mdfs": [
           {
@@ -131,7 +163,7 @@
             "espessura": 18,
             "precoUnit": 155.0,
             "url": "https://www.guararapes.com.br/produto/caribe",
-            "area": 4.2,
+            "area": 20.4,
             "imgSource": "./img/guararapes-caribe.jpg"
           }
         ],
@@ -231,6 +263,22 @@
         "acessorios": []
       },
       {
+        "item": "Painel da Sala",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 9.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
         "item": "Geral",
         "mdfs": [
           {
@@ -270,7 +318,7 @@
             "espessura": 18,
             "precoUnit": 155.0,
             "url": "https://www.guararapes.com.br/produto/caribe",
-            "area": 4.2,
+            "area": 13.3,
             "imgSource": "./img/guararapes-caribe.jpg"
           }
         ],
@@ -282,8 +330,35 @@
     "nome": "Varanda",
     "itens": [
       {
+        "item": "Painel Varanda",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 7.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
         "item": "Geral",
-        "mdfs": [],
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 7.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
         "acessorios": []
       }
     ]
