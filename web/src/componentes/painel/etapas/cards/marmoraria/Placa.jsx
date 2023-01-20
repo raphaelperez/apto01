@@ -10,7 +10,7 @@ export default function Placa(props) {
         <p>{props.placa["tipoDaPedra"] + " - " + props.placa["especificacao"]}</p>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>área</h4>
+            <h4>quantidade</h4>
             <p>{props.placa["area"]} m²</p>
           </div>
           <div className="card-infos-col">

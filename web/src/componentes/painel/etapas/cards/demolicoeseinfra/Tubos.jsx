@@ -5,7 +5,7 @@ export default function Tubos(props) {
         <h3>{props.tubos["tipo"]}</h3>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>comprimento</h4>
+            <h4>quantidade</h4>
             <p>{props.tubos["comprimento"]} m</p>
           </div>
         </div>

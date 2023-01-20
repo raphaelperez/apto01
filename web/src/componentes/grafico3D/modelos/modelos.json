@@ -327,7 +327,8 @@
       "objetos": [
         "IfcCoveringPIN-0200",
         "IfcCoveringPIS-0200",
-        "IfcCoveringREV-0200"
+        "IfcCoveringREV-0200",
+        "IfcRailingGDC-0201"
       ],
       "texturaObjetos": "varanda-levantamentos",
       "portas": [
@@ -345,7 +346,8 @@
       "objetos": [
         "IfcCoveringPIN-0200",
         "IfcCoveringPIS-0200",
-        "IfcCoveringREV-0200"
+        "IfcCoveringREV-0200",
+        "IfcRailingGDC-0201"
       ],
       "texturaObjetos": "varanda-demolicoeseinfra",
       "portas": [
@@ -357,6 +359,7 @@
       "objetos": [
         "IfcCoveringPIN-0200",
         "IfcCoveringREV-0200",
+        "IfcRailingGDC-0201",
         "IfcCoveringFOR-0201",
         "IfcBeamTAB-0201-03",
         "IfcBeamTAB-0201-08",
@@ -380,6 +383,7 @@
       "objetos": [
         "IfcCoveringPIN-0200",
         "IfcCoveringREV-0200",
+        "IfcRailingGDC-0201",
         "IfcCoveringFOR-0201",
         "IfcBeamTAB-0201-03",
         "IfcBeamTAB-0201-08",
@@ -403,6 +407,7 @@
       "objetos": [
         "IfcCoveringPIN-0200",
         "IfcCoveringREV-0200",
+        "IfcRailingGDC-0201",
         "IfcCoveringFOR-0201",
         "IfcBeamTAB-0201-03",
         "IfcBeamTAB-0201-08",
@@ -434,7 +439,9 @@
       "objetos": [
         "IfcCoveringPIN-0300",
         "IfcCoveringPIS-0300",
-        "IfcCoveringREV-0300"
+        "IfcCoveringREV-0300",
+        "IfcCoveringPIS-0302",
+        "IfcCoveringREV-0301"
       ],
       "texturaObjetos": "areadeservico-levantamentos",
       "portas": [
@@ -452,7 +459,9 @@
       "objetos": [
         "IfcCoveringPIN-0300",
         "IfcCoveringPIS-0300",
-        "IfcCoveringREV-0300"
+        "IfcCoveringREV-0300",
+        "IfcCoveringPIS-0302",
+        "IfcCoveringREV-0301"
       ],
       "texturaObjetos": "areadeservico-demolicoeseinfra",
       "portas": [
@@ -463,7 +472,15 @@
     "cobrimentos": {
       "objetos": [
         "IfcCoveringPIN-0300",
+        "IfcCoveringPIS-0302",
+        "IfcCoveringREV-0301",
         "IfcCoveringFOR-0301",
+        "IfcBeamTAB-0301-02",
+        "IfcBeamTAB-0301-01",
+        "IfcBeamTAB-0301-03",
+        "IfcBeamTAB-0301-04",
+        "IfcBeamTAB-0301-05",
+        "IfcBeamTAB-0301-06",
         "IfcCoveringPIN-0301",
         "IfcCoveringPIN-0302",
         "IfcCoveringPIS-0301"
@@ -477,7 +494,15 @@
     "marmoraria": {
       "objetos": [
         "IfcCoveringPIN-0300",
+        "IfcCoveringPIS-0302",
+        "IfcCoveringREV-0301",
         "IfcCoveringFOR-0301",
+        "IfcBeamTAB-0301-02",
+        "IfcBeamTAB-0301-01",
+        "IfcBeamTAB-0301-03",
+        "IfcBeamTAB-0301-04",
+        "IfcBeamTAB-0301-05",
+        "IfcBeamTAB-0301-06",
         "IfcCoveringPIN-0301",
         "IfcCoveringPIN-0302",
         "IfcCoveringPIS-0301"
@@ -491,7 +516,15 @@
     "marcenaria": {
       "objetos": [
         "IfcCoveringPIN-0300",
+        "IfcCoveringPIS-0302",
+        "IfcCoveringREV-0301",
         "IfcCoveringFOR-0301",
+        "IfcBeamTAB-0301-02",
+        "IfcBeamTAB-0301-01",
+        "IfcBeamTAB-0301-03",
+        "IfcBeamTAB-0301-04",
+        "IfcBeamTAB-0301-05",
+        "IfcBeamTAB-0301-06",
         "IfcCoveringPIN-0301",
         "IfcCoveringPIN-0302",
         "IfcCoveringPIS-0301"

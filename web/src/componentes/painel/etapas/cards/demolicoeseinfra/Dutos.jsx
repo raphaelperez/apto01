@@ -5,7 +5,7 @@ export default function Dutos(props) {
         <h3>{props.dutos["tipo"]}</h3>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>comprimento</h4>
+            <h4>quantidade</h4>
             <p>{props.dutos["comprimento"]} m</p>
           </div>
         </div>

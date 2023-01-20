@@ -9,7 +9,14 @@
           {
             "id": "apartamento-demolicoes-per",
             "tipo": "Pisos e Revestimentos",
-            "area": 91.0
+            "area": 84.0
+          }
+        ],
+        "portas": [
+          {
+            "id": "apartamento-Demoli\u00e7\u00f5es-portas-de-madeira",
+            "tipo": "Portas de madeira",
+            "quantidade": 1
           }
         ]
       },
@@ -114,7 +121,7 @@
           {
             "id": "areadeservico-demolicoes-per",
             "tipo": "Pisos e Revestimentos",
-            "area": 29.0
+            "area": 23.0
           }
         ]
       }

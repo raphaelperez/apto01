@@ -1,12 +1,13 @@
 import Acordeon from "./cards/Acordeon";
 import Per from "./cards/demolicoeseinfra/Per";
+import Portas from "./cards/demolicoeseinfra/Portas";
 import Conduites from "./cards/demolicoeseinfra/Conduites";
 import Tubos from "./cards/demolicoeseinfra/Tubos";
 import Dutos from "./cards/demolicoeseinfra/Dutos";
 
-import dados from "./demolicoesEInfra.json";
+import dados from "./demolicoesInfra.json";
 
-export default function DemolicoesEInfra(props) {
+export default function DemolicoesInfra(props) {
   return (
     <>
       {dados[props.ambiente]["itens"].map((dado) => {
@@ -16,6 +17,10 @@ export default function DemolicoesEInfra(props) {
               dado["per"]["area"] != "0" &&
               dado["per"].map((per) => {
                 return <Per per={per} />;
+              })}
+            {dado["item"] == "Demolições" &&
+              dado["portas"].map((porta) => {
+                return <Portas porta={porta} />;
               })}
             {dado["item"] == "Infra Elétrica" &&
               dado["conduites"].map((conduites) => {

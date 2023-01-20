@@ -8,10 +8,10 @@ import Tag from "./tags/Tag";
 import "./grafico3D.css";
 
 export default function Grafico3D(props) {
-  const posicao = [-6.5, -1, 1.35];
+  const posicao = [-8, -1, 2];
   return (
     <div className="canvas">
-      <Canvas flat camera={{ position: [-3, 5, 6], fov: 70, near: 0.1, far: 200 }}>
+      <Canvas flat camera={{ position: [3, 5, 7], fov: 70, near: 0.1, far: 200 }}>
         <OrbitControls enableDamping={true} />
         <Tag tag={props.tag} />
         {props.ambiente != "apartamento" && (

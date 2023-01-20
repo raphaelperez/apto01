@@ -5,7 +5,7 @@ export default function Forro(props) {
         <h3>{props.forro["tipo"]}</h3>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>área</h4>
+            <h4>quantidade</h4>
             <p>{props.forro["area"]} m²</p>
           </div>
           <div className="card-infos-col"></div>

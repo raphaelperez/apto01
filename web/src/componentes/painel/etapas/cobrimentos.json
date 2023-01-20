@@ -10,7 +10,7 @@
             "id": "APTO-PIS-01",
             "nome": "PIS-01",
             "tipo": "Piso",
-            "area": 60.0,
+            "area": 58.0,
             "fabricante": "Portobello",
             "especificacao": "Karst Off White",
             "tipoDeMaterial": "Porcelanato",
@@ -27,7 +27,7 @@
             "id": "APTO-PIN-02",
             "nome": "PIN-02",
             "tipo": "Tinta",
-            "area": 71.0,
+            "area": 66.0,
             "fabricante": "Suvinil",
             "especificacao": "Maciota",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -39,7 +39,7 @@
             "id": "APTO-PIN-01",
             "nome": "PIN-01",
             "tipo": "Tinta",
-            "area": 60.0,
+            "area": 59.0,
             "fabricante": "Suvinil",
             "especificacao": "Rende e Cobre Muito",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -55,7 +55,7 @@
           {
             "id": "apartamentoForro de gesso",
             "tipo": "Forro de gesso",
-            "area": 60.0,
+            "area": 59.0,
             "imgSource": "./img/forro_de_gesso.jpg"
           }
         ],
@@ -63,7 +63,7 @@
           {
             "id": "apartamentotabica",
             "conjunto": "Tabica",
-            "comprimento": 34.5
+            "comprimento": 11.4
           }
         ]
       }
@@ -205,7 +205,7 @@
             "id": "APTO-PIS-01",
             "nome": "PIS-01",
             "tipo": "Piso",
-            "area": 7.0,
+            "area": 5.0,
             "fabricante": "Portobello",
             "especificacao": "Karst Off White",
             "tipoDeMaterial": "Porcelanato",
@@ -222,7 +222,7 @@
             "id": "APTO-PIN-02",
             "nome": "PIN-02",
             "tipo": "Tinta",
-            "area": 23.0,
+            "area": 18.0,
             "fabricante": "Suvinil",
             "especificacao": "Maciota",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -234,7 +234,7 @@
             "id": "APTO-PIN-01",
             "nome": "PIN-01",
             "tipo": "Tinta",
-            "area": 7.0,
+            "area": 6.0,
             "fabricante": "Suvinil",
             "especificacao": "Rende e Cobre Muito",
             "tipoDeMaterial": "Tinta l\u00e1tex",
@@ -250,11 +250,17 @@
           {
             "id": "\u00c1rea de Servi\u00e7oForro de gesso",
             "tipo": "Forro de gesso",
-            "area": 7.0,
+            "area": 6.0,
             "imgSource": "./img/forro_de_gesso.jpg"
           }
         ],
-        "tabicas": []
+        "tabicas": [
+          {
+            "id": "\u00c1rea de Servi\u00e7otabica",
+            "conjunto": "Tabica",
+            "comprimento": 11.4
+          }
+        ]
       }
     ]
   }

@@ -1,12 +1,12 @@
-export default function Per(props) {
+export default function Portas(props) {
   return (
-    <div className="card" key={props.per["id"]}>
+    <div className="card" key={props.porta["id"]}>
       <div className="card-infos">
-        <h3>{props.per["tipo"]}</h3>
+        <h3>{props.porta["tipo"]}</h3>
         <div className="card-infos-row">
           <div className="card-infos-col">
             <h4>quantidade</h4>
-            <p>{props.per["area"]} m²</p>
+            <p>{props.porta["quantidade"]} unid.</p>
           </div>
         </div>
       </div>

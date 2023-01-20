@@ -10,7 +10,7 @@ export default function Per(props) {
         <p>{props.per["fabricante"] + " - " + props.per["especificacao"]}</p>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>área</h4>
+            <h4>quantidade</h4>
             <p>{props.per["area"]} m²</p>
           </div>
           <div className="card-infos-col">

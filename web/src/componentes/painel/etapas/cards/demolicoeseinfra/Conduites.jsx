@@ -5,7 +5,7 @@ export default function Conduites(props) {
         <h3>{props.conduites["tipo"]}</h3>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>comprimento</h4>
+            <h4>quantidade</h4>
             <p>{props.conduites["comprimento"]} m</p>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function Tabica(props) {
         <h3>{props.tabica["conjunto"]}</h3>
         <div className="card-infos-row">
           <div className="card-infos-col">
-            <h4>área</h4>
+            <h4>quantidade</h4>
             <p>{props.tabica["comprimento"]} m</p>
           </div>
           <div className="card-infos-col"></div>

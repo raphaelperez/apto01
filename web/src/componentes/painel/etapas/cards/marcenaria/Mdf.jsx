@@ -14,7 +14,7 @@ export default function Mdf(props) {
             <p>{props.placa["espessura"]} mm</p>
           </div>
           <div className="card-infos-col">
-            <h4>área</h4>
+            <h4>quantidade</h4>
             <p>{props.placa["area"]} m²</p>
           </div>
         </div>
