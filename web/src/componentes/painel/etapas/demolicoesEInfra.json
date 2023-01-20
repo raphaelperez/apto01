@@ -1,0 +1,123 @@
+{
+  "projeto": "Apto 01",
+  "apartamento": {
+    "nome": "Apto 01",
+    "itens": [
+      {
+        "item": "Demoli\u00e7\u00f5es",
+        "per": [
+          {
+            "id": "apartamento-demolicoes-per",
+            "tipo": "Pisos e Revestimentos",
+            "area": 91.0
+          }
+        ]
+      },
+      {
+        "item": "Infra El\u00e9trica",
+        "conduites": [
+          {
+            "id": "apartamento-infra-eletrica-conduites",
+            "tipo": "Condu\u00edtes",
+            "comprimento": 2.2
+          }
+        ]
+      },
+      {
+        "item": "Infra G\u00e1s",
+        "tubos": [
+          {
+            "id": "apartamento-infra-gas-tubos",
+            "tipo": "Tubo de cobre",
+            "comprimento": 3.1
+          }
+        ]
+      },
+      {
+        "item": "Infra Exaust\u00e3o",
+        "dutos": [
+          {
+            "id": "apartamento-infra-exaustao-dutos",
+            "tipo": "Duto de exaust\u00e3o",
+            "comprimento": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  "salaecozinha": {
+    "nome": "Sala e Cozinha",
+    "itens": [
+      {
+        "item": "Demoli\u00e7\u00f5es",
+        "per": [
+          {
+            "id": "salaecozinha-demolicoes-per",
+            "tipo": "Pisos e Revestimentos",
+            "area": 36.0
+          }
+        ]
+      },
+      {
+        "item": "Infra El\u00e9trica",
+        "conduites": [
+          {
+            "id": "salaecozinha-infra-eletrica-conduites",
+            "tipo": "Condu\u00edtes",
+            "comprimento": 2.2
+          }
+        ]
+      },
+      {
+        "item": "Infra G\u00e1s",
+        "tubos": [
+          {
+            "id": "salaecozinha-infra-gas-tubos",
+            "tipo": "Tubo de cobre",
+            "comprimento": 3.1
+          }
+        ]
+      },
+      {
+        "item": "Infra Exaust\u00e3o",
+        "dutos": [
+          {
+            "id": "salaecozinha-infra-exaustao-dutos",
+            "tipo": "Duto de exaust\u00e3o",
+            "comprimento": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  "varanda": {
+    "nome": "Varanda",
+    "itens": [
+      {
+        "item": "Demoli\u00e7\u00f5es",
+        "per": [
+          {
+            "id": "varanda-demolicoes-per",
+            "tipo": "Pisos e Revestimentos",
+            "area": 26.0
+          }
+        ]
+      }
+    ]
+  },
+  "areadeservico": {
+    "nome": "\u00c1rea de Servi\u00e7o",
+    "itens": [
+      {
+        "item": "Demoli\u00e7\u00f5es",
+        "per": [
+          {
+            "id": "areadeservico-demolicoes-per",
+            "tipo": "Pisos e Revestimentos",
+            "area": 29.0
+          }
+        ]
+      }
+    ]
+  }
+}

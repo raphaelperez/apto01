@@ -1,0 +1,376 @@
+{
+  "projeto": null,
+  "apartamento": {
+    "nome": null,
+    "itens": [
+      {
+        "item": "Arm\u00e1rio a\u00e9reo da Cozinha",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 4.7,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-02",
+            "fabricante": "Arauco",
+            "especificacao": "Cinza Cristal",
+            "espessura": 18,
+            "precoUnit": 135.0,
+            "url": "https://www.arauco.cl/brasil/marcas/araucomelamina/cinza-cristal/",
+            "area": 2.3,
+            "imgSource": "./img/arauco-cinzacristal.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Arm\u00e1rio da bancada da Cozinha",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 8.7,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-04",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 6,
+            "precoUnit": 80.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 2.1,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-02",
+            "fabricante": "Arauco",
+            "especificacao": "Cinza Cristal",
+            "espessura": 18,
+            "precoUnit": 135.0,
+            "url": "https://www.arauco.cl/brasil/marcas/araucomelamina/cinza-cristal/",
+            "area": 1.8,
+            "imgSource": "./img/arauco-cinzacristal.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Torre do Refrigerador",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 1.9,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 4.2,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Painel da Sala",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 9.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Painel Varanda",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 7.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Geral",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 15.3,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-02",
+            "fabricante": "Arauco",
+            "especificacao": "Cinza Cristal",
+            "espessura": 18,
+            "precoUnit": 135.0,
+            "url": "https://www.arauco.cl/brasil/marcas/araucomelamina/cinza-cristal/",
+            "area": 4.1,
+            "imgSource": "./img/arauco-cinzacristal.jpg"
+          },
+          {
+            "nome": "MDF-04",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 6,
+            "precoUnit": 80.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 2.1,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 20.4,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      }
+    ]
+  },
+  "salaecozinha": {
+    "nome": "Sala e Cozinha",
+    "itens": [
+      {
+        "item": "Arm\u00e1rio a\u00e9reo da Cozinha",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 4.7,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-02",
+            "fabricante": "Arauco",
+            "especificacao": "Cinza Cristal",
+            "espessura": 18,
+            "precoUnit": 135.0,
+            "url": "https://www.arauco.cl/brasil/marcas/araucomelamina/cinza-cristal/",
+            "area": 2.3,
+            "imgSource": "./img/arauco-cinzacristal.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Arm\u00e1rio da bancada da Cozinha",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 8.7,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-04",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 6,
+            "precoUnit": 80.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 2.1,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-02",
+            "fabricante": "Arauco",
+            "especificacao": "Cinza Cristal",
+            "espessura": 18,
+            "precoUnit": 135.0,
+            "url": "https://www.arauco.cl/brasil/marcas/araucomelamina/cinza-cristal/",
+            "area": 1.8,
+            "imgSource": "./img/arauco-cinzacristal.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Torre do Refrigerador",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 1.9,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 4.2,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Painel da Sala",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 9.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Geral",
+        "mdfs": [
+          {
+            "nome": "MDF-01",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 18,
+            "precoUnit": 110.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 15.3,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-02",
+            "fabricante": "Arauco",
+            "especificacao": "Cinza Cristal",
+            "espessura": 18,
+            "precoUnit": 135.0,
+            "url": "https://www.arauco.cl/brasil/marcas/araucomelamina/cinza-cristal/",
+            "area": 4.1,
+            "imgSource": "./img/arauco-cinzacristal.jpg"
+          },
+          {
+            "nome": "MDF-04",
+            "fabricante": "Guararapes",
+            "especificacao": "Branco tx",
+            "espessura": 6,
+            "precoUnit": 80.0,
+            "url": "https://www.guararapes.com.br/produto/branco-tx",
+            "area": 2.1,
+            "imgSource": "./img/guararapes-brancotx.jpg"
+          },
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 13.3,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      }
+    ]
+  },
+  "varanda": {
+    "nome": "Varanda",
+    "itens": [
+      {
+        "item": "Painel Varanda",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 7.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Geral",
+        "mdfs": [
+          {
+            "nome": "MDF-03",
+            "fabricante": "Guararapes",
+            "especificacao": "Caribe",
+            "espessura": 18,
+            "precoUnit": 155.0,
+            "url": "https://www.guararapes.com.br/produto/caribe",
+            "area": 7.1,
+            "imgSource": "./img/guararapes-caribe.jpg"
+          }
+        ],
+        "acessorios": []
+      }
+    ]
+  },
+  "areadeservico": {
+    "nome": "\u00c1rea de Servi\u00e7o",
+    "itens": [
+      {
+        "item": "Geral",
+        "mdfs": [],
+        "acessorios": []
+      }
+    ]
+  }
+}

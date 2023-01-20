@@ -1,0 +1,559 @@
+{
+  "salaecozinha": {
+    "levantamentos": {
+      "objetos": [
+        "IfcCoveringPIN-0100",
+        "IfcCoveringPIS-0100",
+        "IfcCoveringREV-0100",
+        "IfcCoveringPIN-0101",
+        "IfcSwitchingDeviceINT-01-0101",
+        "IfcSwitchingDeviceINT-02-0101",
+        "IfcSwitchingDeviceINT-01-0102",
+        "IfcSwitchingDeviceINT-01-0103",
+        "IfcOutletTOM-02-0101",
+        "IfcOutletTOM-02-0102",
+        "IfcOutletTOM-02-0103",
+        "IfcOutletTOM-02-0104",
+        "IfcOutletTOM-02-0105",
+        "IfcFlowTerminalGAS-0100",
+        "IfcFlowTerminalAGU-0100",
+        "IfcFlowTerminalESG-0100"
+      ],
+      "texturaObjetos": "salaecozinha-levantamentos",
+      "portas": [
+        "IfcDoorPOR-05",
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-levantamentos"
+    },
+    "projeto": {
+      "objetos": [],
+      "texturaObjetos": "salaecozinha-projeto",
+      "portas": [],
+      "texturaPortas": "portas-projeto"
+    },
+    "demolicoeseinfra": {
+      "objetos": [
+        "IfcCoveringPIN-0100",
+        "IfcCoveringPIS-0100",
+        "IfcCoveringREV-0100",
+        "IfcCoveringPIN-0101",
+        "IfcSwitchingDeviceINT-01-0101",
+        "IfcSwitchingDeviceINT-02-0101",
+        "IfcSwitchingDeviceINT-01-0102",
+        "IfcSwitchingDeviceINT-01-0103",
+        "IfcOutletTOM-02-0101",
+        "IfcOutletTOM-02-0102",
+        "IfcOutletTOM-02-0103",
+        "IfcOutletTOM-02-0104",
+        "IfcOutletTOM-02-0105",
+        "IfcFlowTerminalGAS-0100",
+        "IfcFlowTerminalAGU-0100",
+        "IfcFlowTerminalESG-0100",
+        "IfcPipeSegmentCDT-0101",
+        "IfcOutletTOM-02-0106",
+        "IfcPipeSegmentCDT-0102",
+        "IfcOutletTOM-02-0107",
+        "IfcPipeSegmentTUB-0101",
+        "IfcPipeSegmentTUB-0102",
+        "IfcFlowTerminalGAS-0101",
+        "IfcPipeSegmentDUT-0101"
+      ],
+      "texturaObjetos": "salaecozinha-demolicoeseinfra",
+      "portas": [
+        "IfcDoorPOR-05",
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-demolicoeseinfra"
+    },
+    "cobrimentos": {
+      "objetos": [
+        "IfcCoveringPIN-0101",
+        "IfcSwitchingDeviceINT-01-0101",
+        "IfcSwitchingDeviceINT-02-0101",
+        "IfcSwitchingDeviceINT-01-0102",
+        "IfcSwitchingDeviceINT-01-0103",
+        "IfcOutletTOM-02-0101",
+        "IfcOutletTOM-02-0102",
+        "IfcOutletTOM-02-0105",
+        "IfcFlowTerminalAGU-0100",
+        "IfcFlowTerminalESG-0100",
+        "IfcOutletTOM-02-0106",
+        "IfcOutletTOM-02-0107",
+        "IfcFlowTerminalGAS-0101",
+        "IfcCoveringFOR-0101",
+        "IfcBeamTAB-0101-01",
+        "IfcBeamTAB-0101-02",
+        "IfcBeamTAB-0101-03",
+        "IfcBeamTAB-0101-04",
+        "IfcBeamTAB-0101-05",
+        "IfcBeamTAB-0101-06",
+        "IfcBeamTAB-0101-07",
+        "IfcBeamTAB-0101-08",
+        "IfcBeamTAB-0101-09",
+        "IfcBeamTAB-0101-10",
+        "IfcBeamTAB-0101-11",
+        "IfcBeamTAB-0101-12",
+        "IfcBeamTAB-0101-13",
+        "IfcBeamTAB-0101-14",
+        "IfcBeamTAB-0101-15",
+        "IfcCoveringPIN-0102",
+        "IfcCoveringPIN-0103",
+        "IfcCoveringPIS-0101"
+      ],
+      "texturaObjetos": "salaecozinha-cobrimentos",
+      "portas": [
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-cobrimentos"
+    },
+    "marmoraria": {
+      "objetos": [
+        "IfcCoveringPIN-0101",
+        "IfcSwitchingDeviceINT-01-0101",
+        "IfcSwitchingDeviceINT-02-0101",
+        "IfcSwitchingDeviceINT-01-0102",
+        "IfcSwitchingDeviceINT-01-0103",
+        "IfcOutletTOM-02-0101",
+        "IfcOutletTOM-02-0102",
+        "IfcOutletTOM-02-0105",
+        "IfcFlowTerminalAGU-0100",
+        "IfcFlowTerminalESG-0100",
+        "IfcOutletTOM-02-0106",
+        "IfcOutletTOM-02-0107",
+        "IfcFlowTerminalGAS-0101",
+        "IfcCoveringFOR-0101",
+        "IfcBeamTAB-0101-01",
+        "IfcBeamTAB-0101-02",
+        "IfcBeamTAB-0101-03",
+        "IfcBeamTAB-0101-04",
+        "IfcBeamTAB-0101-05",
+        "IfcBeamTAB-0101-06",
+        "IfcBeamTAB-0101-07",
+        "IfcBeamTAB-0101-08",
+        "IfcBeamTAB-0101-09",
+        "IfcBeamTAB-0101-10",
+        "IfcBeamTAB-0101-11",
+        "IfcBeamTAB-0101-12",
+        "IfcBeamTAB-0101-13",
+        "IfcBeamTAB-0101-14",
+        "IfcBeamTAB-0101-15",
+        "IfcCoveringPIN-0102",
+        "IfcCoveringPIN-0103",
+        "IfcCoveringPIS-0101",
+        "IfcPlateMRM-010104",
+        "IfcPlateMRM-010102",
+        "IfcPlateMRM-010103",
+        "IfcPlateMRM-010101",
+        "IfcSanitaryTerminalCUB-0101",
+        "IfcPlateMRM-010105",
+        "IfcPlateMRM-010204",
+        "IfcPlateMRM-010203",
+        "IfcPlateMRM-010202",
+        "IfcPlateMRM-010201"
+      ],
+      "texturaObjetos": "salaecozinha-marmoraria",
+      "portas": [
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-marmoraria"
+    },
+    "marcenaria": {
+      "objetos": [
+        "IfcCoveringPIN-0101",
+        "IfcSwitchingDeviceINT-01-0101",
+        "IfcSwitchingDeviceINT-02-0101",
+        "IfcSwitchingDeviceINT-01-0102",
+        "IfcSwitchingDeviceINT-01-0103",
+        "IfcOutletTOM-02-0101",
+        "IfcOutletTOM-02-0102",
+        "IfcOutletTOM-02-0105",
+        "IfcFlowTerminalAGU-0100",
+        "IfcFlowTerminalESG-0100",
+        "IfcOutletTOM-02-0106",
+        "IfcOutletTOM-02-0107",
+        "IfcFlowTerminalGAS-0101",
+        "IfcCoveringFOR-0101",
+        "IfcBeamTAB-0101-01",
+        "IfcBeamTAB-0101-02",
+        "IfcBeamTAB-0101-03",
+        "IfcBeamTAB-0101-04",
+        "IfcBeamTAB-0101-05",
+        "IfcBeamTAB-0101-06",
+        "IfcBeamTAB-0101-07",
+        "IfcBeamTAB-0101-08",
+        "IfcBeamTAB-0101-09",
+        "IfcBeamTAB-0101-10",
+        "IfcBeamTAB-0101-11",
+        "IfcBeamTAB-0101-12",
+        "IfcBeamTAB-0101-13",
+        "IfcBeamTAB-0101-14",
+        "IfcBeamTAB-0101-15",
+        "IfcCoveringPIN-0102",
+        "IfcCoveringPIN-0103",
+        "IfcCoveringPIS-0101",
+        "IfcPlateMRM-010104",
+        "IfcPlateMRM-010102",
+        "IfcPlateMRM-010103",
+        "IfcPlateMRM-010101",
+        "IfcSanitaryTerminalCUB-0101",
+        "IfcPlateMRM-010105",
+        "IfcPlateMRM-010204",
+        "IfcPlateMRM-010203",
+        "IfcPlateMRM-010202",
+        "IfcPlateMRM-010201",
+        "IfcPlateMDF-0101-M02-04",
+        "IfcPlateMDF-0101-M02-07",
+        "IfcPlateMDF-0101-M01-03",
+        "IfcPlateMDF-0101-P05",
+        "IfcPlateMDF-0101-M03-03",
+        "IfcPlateMDF-0101-M01-06",
+        "IfcPlateMDF-0101-P06",
+        "IfcPlateMDF-0101-M03-07",
+        "IfcPlateMDF-0101-M03-06",
+        "IfcPlateMDF-0101-M02-02",
+        "IfcPlateMDF-0101-M02-05",
+        "IfcPlateMDF-0101-M01-01",
+        "IfcPlateMDF-0101-M03-01",
+        "IfcPlateMDF-0101-P03",
+        "IfcPlateMDF-0101-M01-04",
+        "IfcPlateMDF-0101-M03-04",
+        "IfcPlateMDF-0101-M01-07",
+        "IfcPlateMDF-0101-M02-03",
+        "IfcPlateMDF-0101-P01",
+        "IfcPlateMDF-0101-P04",
+        "IfcPlateMDF-0101-M02-06",
+        "IfcPlateMDF-0101-M01-02",
+        "IfcPlateMDF-0101-M03-02",
+        "IfcPlateMDF-0101-M01-05",
+        "IfcPlateMDF-0101-M03-05",
+        "IfcPlateMDF-0101-M02-01",
+        "IfcPlateMDF-0101-P02",
+        "IfcPlateMDF-0102-G01-02",
+        "IfcPlateMDF-0102-G04-01",
+        "IfcPlateMDF-0102-M03-05",
+        "IfcPlateMDF-0102-G01-05",
+        "IfcPlateMDF-0102-G04-04",
+        "IfcPlateMDF-0102-M01-04",
+        "IfcPlateMDF-0102-G05-05",
+        "IfcPlateMDF-0102-G02-03",
+        "IfcPlateMDF-0102-M02-02",
+        "IfcPlateMDF-0102-M01-01",
+        "IfcPlateMDF-0102-P03",
+        "IfcPlateMDF-0102-G05-02",
+        "IfcPlateMDF-0102-G03-01",
+        "IfcPlateMDF-0102-M02-05",
+        "IfcPlateMDF-0102-P06",
+        "IfcPlateMDF-0102-G03-04",
+        "IfcPlateMDF-0102-G01-03",
+        "IfcPlateMDF-0102-G04-02",
+        "IfcPlateMDF-0102-M03-06",
+        "IfcPlateMDF-0102-G02-01",
+        "IfcPlateMDF-0102-M03-03",
+        "IfcPlateMDF-0102-M01-05",
+        "IfcPlateMDF-0102-M01-02",
+        "IfcPlateMDF-0102-P01",
+        "IfcPlateMDF-0102-P04",
+        "IfcPlateMDF-0102-G04-05",
+        "IfcPlateMDF-0102-G02-04",
+        "IfcPlateMDF-0102-M02-03",
+        "IfcPlateMDF-0102-G03-02",
+        "IfcPlateMDF-0102-M03-01",
+        "IfcPlateMDF-0102-G01-01",
+        "IfcPlateMDF-0102-M03-04",
+        "IfcPlateMDF-0102-M01-03",
+        "IfcPlateMDF-0102-G01-04",
+        "IfcPlateMDF-0102-G04-03",
+        "IfcPlateMDF-0102-G02-02",
+        "IfcPlateMDF-0102-M02-01",
+        "IfcPlateMDF-0102-P02",
+        "IfcPlateMDF-0102-M02-04",
+        "IfcPlateMDF-0102-P05",
+        "IfcPlateMDF-0102-G05-01",
+        "IfcPlateMDF-0102-G02-05",
+        "IfcPlateMDF-0102-G05-04",
+        "IfcPlateMDF-0102-M03-02",
+        "IfcPlateMDF-0102-G03-03",
+        "IfcPlateMDF-0102-G03-05",
+        "IfcPlateMDF-0102-G05-03",
+        "IfcPlateMDF-0103-M01-05",
+        "IfcPlateMDF-010301",
+        "IfcPlateMDF-0103-M01-03",
+        "IfcPlateMDF-0103-P02",
+        "IfcPlateMDF-0103-M01-01",
+        "IfcPlateMDF-010302",
+        "IfcPlateMDF-010304",
+        "IfcPlateMDF-0103-M01-06",
+        "IfcPlateMDF-0103-M01-04",
+        "IfcPlateMDF-0103-M01-02",
+        "IfcPlateMDF-0103-P01",
+        "IfcPlateMDF-0104-P11",
+        "IfcPlateMDF-0104-P04",
+        "IfcPlateMDF-0104-P08",
+        "IfcPlateMDF-0104-P07",
+        "IfcPlateMDF-0104-POR",
+        "IfcPlateMDF-0104-P09",
+        "IfcPlateMDF-0104-P01",
+        "IfcPlateMDF-0104-P05",
+        "IfcPlateMDF-0104-P10",
+        "IfcPlateMDF-0104-P03",
+        "IfcPlateMDF-0104-P02",
+        "IfcPlateMDF-0104-P06"
+      ],
+      "texturaObjetos": "salaecozinha-marcenaria",
+      "portas": [
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-marcenaria"
+    }
+  },
+  "varanda": {
+    "levantamentos": {
+      "objetos": [
+        "IfcCoveringPIN-0200",
+        "IfcCoveringPIS-0200",
+        "IfcCoveringREV-0200"
+      ],
+      "texturaObjetos": "varanda-levantamentos",
+      "portas": [
+        "IfcDoorPOR-02"
+      ],
+      "texturaPortas": "portas-levantamentos"
+    },
+    "projeto": {
+      "objetos": [],
+      "texturaObjetos": "varanda-projeto",
+      "portas": [],
+      "texturaPortas": "portas-projeto"
+    },
+    "demolicoeseinfra": {
+      "objetos": [
+        "IfcCoveringPIN-0200",
+        "IfcCoveringPIS-0200",
+        "IfcCoveringREV-0200"
+      ],
+      "texturaObjetos": "varanda-demolicoeseinfra",
+      "portas": [
+        "IfcDoorPOR-02"
+      ],
+      "texturaPortas": "portas-demolicoeseinfra"
+    },
+    "cobrimentos": {
+      "objetos": [
+        "IfcCoveringPIN-0200",
+        "IfcCoveringREV-0200",
+        "IfcCoveringFOR-0201",
+        "IfcBeamTAB-0201-03",
+        "IfcBeamTAB-0201-08",
+        "IfcBeamTAB-0201-06",
+        "IfcBeamTAB-0201-04",
+        "IfcBeamTAB-0201-01",
+        "IfcBeamTAB-0201-02",
+        "IfcBeamTAB-0201-05",
+        "IfcBeamTAB-0201-07",
+        "IfcBeamTAB-0201-09",
+        "IfcCoveringPIN-0201",
+        "IfcCoveringPIS-0201"
+      ],
+      "texturaObjetos": "varanda-cobrimentos",
+      "portas": [
+        "IfcDoorPOR-02"
+      ],
+      "texturaPortas": "portas-cobrimentos"
+    },
+    "marmoraria": {
+      "objetos": [
+        "IfcCoveringPIN-0200",
+        "IfcCoveringREV-0200",
+        "IfcCoveringFOR-0201",
+        "IfcBeamTAB-0201-03",
+        "IfcBeamTAB-0201-08",
+        "IfcBeamTAB-0201-06",
+        "IfcBeamTAB-0201-04",
+        "IfcBeamTAB-0201-01",
+        "IfcBeamTAB-0201-02",
+        "IfcBeamTAB-0201-05",
+        "IfcBeamTAB-0201-07",
+        "IfcBeamTAB-0201-09",
+        "IfcCoveringPIN-0201",
+        "IfcCoveringPIS-0201"
+      ],
+      "texturaObjetos": "varanda-marmoraria",
+      "portas": [
+        "IfcDoorPOR-02"
+      ],
+      "texturaPortas": "portas-marmoraria"
+    },
+    "marcenaria": {
+      "objetos": [
+        "IfcCoveringPIN-0200",
+        "IfcCoveringREV-0200",
+        "IfcCoveringFOR-0201",
+        "IfcBeamTAB-0201-03",
+        "IfcBeamTAB-0201-08",
+        "IfcBeamTAB-0201-06",
+        "IfcBeamTAB-0201-04",
+        "IfcBeamTAB-0201-01",
+        "IfcBeamTAB-0201-02",
+        "IfcBeamTAB-0201-05",
+        "IfcBeamTAB-0201-07",
+        "IfcBeamTAB-0201-09",
+        "IfcCoveringPIN-0201",
+        "IfcCoveringPIS-0201",
+        "IfcPlateMDF-0201-P02",
+        "IfcPlateMDF-0201-P04",
+        "IfcPlateMDF-0201-P06",
+        "IfcPlateMDF-0201-P01",
+        "IfcPlateMDF-0201-P03",
+        "IfcPlateMDF-0201-P05"
+      ],
+      "texturaObjetos": "varanda-marcenaria",
+      "portas": [
+        "IfcDoorPOR-02"
+      ],
+      "texturaPortas": "portas-marcenaria"
+    }
+  },
+  "areadeservico": {
+    "levantamentos": {
+      "objetos": [
+        "IfcCoveringPIN-0300",
+        "IfcCoveringPIS-0300",
+        "IfcCoveringREV-0300"
+      ],
+      "texturaObjetos": "areadeservico-levantamentos",
+      "portas": [
+        "IfcDoorPOR-03"
+      ],
+      "texturaPortas": "portas-levantamentos"
+    },
+    "projeto": {
+      "objetos": [],
+      "texturaObjetos": "areadeservico-projeto",
+      "portas": [],
+      "texturaPortas": "portas-projeto"
+    },
+    "demolicoeseinfra": {
+      "objetos": [
+        "IfcCoveringPIN-0300",
+        "IfcCoveringPIS-0300",
+        "IfcCoveringREV-0300"
+      ],
+      "texturaObjetos": "areadeservico-demolicoeseinfra",
+      "portas": [
+        "IfcDoorPOR-03"
+      ],
+      "texturaPortas": "portas-demolicoeseinfra"
+    },
+    "cobrimentos": {
+      "objetos": [
+        "IfcCoveringPIN-0300",
+        "IfcCoveringFOR-0301",
+        "IfcCoveringPIN-0301",
+        "IfcCoveringPIN-0302",
+        "IfcCoveringPIS-0301"
+      ],
+      "texturaObjetos": "areadeservico-cobrimentos",
+      "portas": [
+        "IfcDoorPOR-03"
+      ],
+      "texturaPortas": "portas-cobrimentos"
+    },
+    "marmoraria": {
+      "objetos": [
+        "IfcCoveringPIN-0300",
+        "IfcCoveringFOR-0301",
+        "IfcCoveringPIN-0301",
+        "IfcCoveringPIN-0302",
+        "IfcCoveringPIS-0301"
+      ],
+      "texturaObjetos": "areadeservico-marmoraria",
+      "portas": [
+        "IfcDoorPOR-03"
+      ],
+      "texturaPortas": "portas-marmoraria"
+    },
+    "marcenaria": {
+      "objetos": [
+        "IfcCoveringPIN-0300",
+        "IfcCoveringFOR-0301",
+        "IfcCoveringPIN-0301",
+        "IfcCoveringPIN-0302",
+        "IfcCoveringPIS-0301"
+      ],
+      "texturaObjetos": "areadeservico-marcenaria",
+      "portas": [
+        "IfcDoorPOR-03"
+      ],
+      "texturaPortas": "portas-marcenaria"
+    }
+  },
+  "apartamento": {
+    "levantamentos": {
+      "portas": [
+        "IfcDoorPOR-05",
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-levantamentos"
+    },
+    "projeto": {
+      "portas": [],
+      "texturaPortas": "portas-projeto"
+    },
+    "demolicoeseinfra": {
+      "portas": [
+        "IfcDoorPOR-05",
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-demolicoeseinfra"
+    },
+    "cobrimentos": {
+      "portas": [
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-cobrimentos"
+    },
+    "marmoraria": {
+      "portas": [
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-marmoraria"
+    },
+    "marcenaria": {
+      "portas": [
+        "IfcDoorPOR-04",
+        "IfcDoorPOR-03",
+        "IfcDoorPOR-02",
+        "IfcDoorPOR-01"
+      ],
+      "texturaPortas": "portas-marcenaria"
+    }
+  }
+}

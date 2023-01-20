@@ -1,0 +1,161 @@
+{
+  "projeto": null,
+  "apartamento": {
+    "nome": null,
+    "itens": [
+      {
+        "item": "Bancada da Cozinha",
+        "pedras": [
+          {
+            "nome": "MRM-01",
+            "tipoDaPedra": "M\u00e1rmore",
+            "especificacao": "Calacata",
+            "precoUnit": 450.0,
+            "area": 4.5,
+            "imgSource": "./img/marmore-calacata.jpg"
+          }
+        ],
+        "acessorios": [
+          {
+            "nome": "CUB-0101",
+            "fabricante": "Tramontina",
+            "especificacao": "Quadrum Undermount",
+            "descricao": "Cuba de inox",
+            "codigo": "94000112",
+            "precoUnit": 2515.0,
+            "url": "https://www.tramontinastore.com/cuba-de-embutir-tramontina-design-collection-quadrum-undermount-em-aco-inox-com-acabamento-scotch-brite-70-u-74x44-cm_94000112/p?idsku=94000112",
+            "imgSource": "./img/tramontina-quadrumundermount.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Ilha",
+        "pedras": [
+          {
+            "nome": "MRM-01",
+            "tipoDaPedra": "M\u00e1rmore",
+            "especificacao": "Calacata",
+            "precoUnit": 450.0,
+            "area": 6.4,
+            "imgSource": "./img/marmore-calacata.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Geral",
+        "pedras": [
+          {
+            "nome": "MRM-01",
+            "tipoDaPedra": "M\u00e1rmore",
+            "especificacao": "Calacata",
+            "precoUnit": 450.0,
+            "area": 10.9,
+            "imgSource": "./img/marmore-calacata.jpg"
+          }
+        ],
+        "acessorios": [
+          {
+            "nome": "CUB-0101",
+            "fabricante": "Tramontina",
+            "especificacao": "Quadrum Undermount",
+            "descricao": "Cuba de inox",
+            "codigo": "94000112",
+            "precoUnit": 2515.0,
+            "url": "https://www.tramontinastore.com/cuba-de-embutir-tramontina-design-collection-quadrum-undermount-em-aco-inox-com-acabamento-scotch-brite-70-u-74x44-cm_94000112/p?idsku=94000112",
+            "imgSource": "./img/tramontina-quadrumundermount.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "salaecozinha": {
+    "nome": "Sala e Cozinha",
+    "itens": [
+      {
+        "item": "Bancada da Cozinha",
+        "pedras": [
+          {
+            "nome": "MRM-01",
+            "tipoDaPedra": "M\u00e1rmore",
+            "especificacao": "Calacata",
+            "precoUnit": 450.0,
+            "area": 4.5,
+            "imgSource": "./img/marmore-calacata.jpg"
+          }
+        ],
+        "acessorios": [
+          {
+            "nome": "CUB-0101",
+            "fabricante": "Tramontina",
+            "especificacao": "Quadrum Undermount",
+            "descricao": "Cuba de inox",
+            "codigo": "94000112",
+            "precoUnit": 2515.0,
+            "url": "https://www.tramontinastore.com/cuba-de-embutir-tramontina-design-collection-quadrum-undermount-em-aco-inox-com-acabamento-scotch-brite-70-u-74x44-cm_94000112/p?idsku=94000112",
+            "imgSource": "./img/tramontina-quadrumundermount.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Ilha",
+        "pedras": [
+          {
+            "nome": "MRM-01",
+            "tipoDaPedra": "M\u00e1rmore",
+            "especificacao": "Calacata",
+            "precoUnit": 450.0,
+            "area": 6.4,
+            "imgSource": "./img/marmore-calacata.jpg"
+          }
+        ],
+        "acessorios": []
+      },
+      {
+        "item": "Geral",
+        "pedras": [
+          {
+            "nome": "MRM-01",
+            "tipoDaPedra": "M\u00e1rmore",
+            "especificacao": "Calacata",
+            "precoUnit": 450.0,
+            "area": 10.9,
+            "imgSource": "./img/marmore-calacata.jpg"
+          }
+        ],
+        "acessorios": [
+          {
+            "nome": "CUB-0101",
+            "fabricante": "Tramontina",
+            "especificacao": "Quadrum Undermount",
+            "descricao": "Cuba de inox",
+            "codigo": "94000112",
+            "precoUnit": 2515.0,
+            "url": "https://www.tramontinastore.com/cuba-de-embutir-tramontina-design-collection-quadrum-undermount-em-aco-inox-com-acabamento-scotch-brite-70-u-74x44-cm_94000112/p?idsku=94000112",
+            "imgSource": "./img/tramontina-quadrumundermount.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "varanda": {
+    "nome": "Varanda",
+    "itens": [
+      {
+        "item": "Geral",
+        "pedras": [],
+        "acessorios": []
+      }
+    ]
+  },
+  "areadeservico": {
+    "nome": "\u00c1rea de Servi\u00e7o",
+    "itens": [
+      {
+        "item": "Geral",
+        "pedras": [],
+        "acessorios": []
+      }
+    ]
+  }
+}

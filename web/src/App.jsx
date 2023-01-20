@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 
-import Contexto from "./components/contexto/Contexto.jsx";
-import Controle from "./components/controle/Controle.jsx";
-import Menu from "./components/menu/Menu.jsx";
-import Painel from "./components/painel/Painel.jsx";
-import TresD from "./components/tresD/TresD.jsx";
-import DoisD from "./components/doisD/DoisD.jsx";
-import Gantt from "./components/gantt/Gantt.jsx";
+import Contexto from "./componentes/contexto/Contexto.jsx";
+import Controle from "./componentes/controle/Controle.jsx";
+import Menu from "./componentes/menu/Menu.jsx";
+import Painel from "./componentes/painel/Painel.jsx";
+import Grafico3D from "./componentes/grafico3D/Grafico3D.jsx";
+import Grafico2D from "./componentes/grafico2D/Grafico2D.jsx";
+import Gantt from "./componentes/gantt/Gantt.jsx";
 
 export default function App() {
   const [ambiente, setAmbiente] = useState("apartamento");
-  const [etapa, setEtapa] = useState("cobrimentos");
+  const [etapa, setEtapa] = useState("marcenaria");
   const [exibir, setExibir] = useState("3D");
   const [tag, setTag] = useState({ name: "none", position: [0, 0, 0] });
 
@@ -40,8 +40,8 @@ export default function App() {
       {(exibir == "2D" || exibir == "3D") && (
         <Controle exibir={exibir} setExibir={setExibir} ambiente={ambiente} etapa={etapa} setEtapa={setEtapa} />
       )}
-      {exibir == "3D" && <TresD ambiente={ambiente} etapa={etapa} tag={tag} setTag={setTag} />}
-      {exibir == "2D" && <DoisD ambiente={ambiente} etapa={etapa} />}
+      {exibir == "3D" && <Grafico3D ambiente={ambiente} etapa={etapa} tag={tag} setTag={setTag} />}
+      {exibir == "2D" && <Grafico2D ambiente={ambiente} etapa={etapa} />}
       {exibir == "gantt" && <Gantt />}
     </>
   );

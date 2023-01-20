@@ -8,9 +8,10 @@ def demol_per(ifc_sub_etapa, nome_do_ambiente):
     demol_per["tipo"] = "Pisos e Revestimentos"
     demol_per["area"] = 0
     for ifc_obj in ifc_sub_etapa.OperatesOn[0].RelatedObjects:
-        ambiente_do_objeto = unidecode(ifc_obj.ContainedInStructure[0].RelatingStructure.LongName.lower().replace(" ", ""))
-        if ifc_obj.is_a() == "IfcCovering" and (nome_do_ambiente == ambiente_do_objeto or nome_do_ambiente == "apartamento"):
-            demol_per["area"] += ifc_obj.IsDefinedBy[0].RelatingPropertyDefinition.Quantities[0].AreaValue
+        if ifc_obj.is_a() == "IfcCovering":
+            ambiente_do_objeto = unidecode(ifc_obj.ContainedInStructure[0].RelatingStructure.LongName.lower().replace(" ", ""))
+            if nome_do_ambiente == ambiente_do_objeto or nome_do_ambiente == "apartamento":
+                demol_per["area"] += ifc_obj.IsDefinedBy[0].RelatingPropertyDefinition.Quantities[0].AreaValue
 
     demol_per["area"] = round(demol_per["area"], 0)
 

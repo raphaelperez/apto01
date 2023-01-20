@@ -1,0 +1,261 @@
+{
+  "projeto": "Apto 01",
+  "apartamento": {
+    "nome": "Apto 01",
+    "itens": [
+      {
+        "item": "Pisos e Revestimentos",
+        "pers": [
+          {
+            "id": "APTO-PIS-01",
+            "nome": "PIS-01",
+            "tipo": "Piso",
+            "area": 60.0,
+            "fabricante": "Portobello",
+            "especificacao": "Karst Off White",
+            "tipoDeMaterial": "Porcelanato",
+            "precoUnitario": 120.0,
+            "url": "https://www.portobello.com.br/produtos/karst/field-tile/karst-off-white/90x90-natural/25111E",
+            "imgSource": "./img/portobello-karst_off_white.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Pinturas",
+        "pinturas": [
+          {
+            "id": "APTO-PIN-02",
+            "nome": "PIN-02",
+            "tipo": "Tinta",
+            "area": 71.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Maciota",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 50.0,
+            "url": "https://www.suvinil.com.br/cores/leque-cores-digital/brancas-e-leves/maciota-b522/c0r",
+            "imgSource": "./img/suvinil-maciota.jpg"
+          },
+          {
+            "id": "APTO-PIN-01",
+            "nome": "PIN-01",
+            "tipo": "Tinta",
+            "area": 60.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Rende e Cobre Muito",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 35.0,
+            "url": "https://loja.suvinil.com.br/paredes/tinta-suvinil-rende-cobre-muito/78/pr0d?gclid=CjwKCAiAheacBhB8EiwAItVO2zZwOzyDMOEdHnLjoUC_tXyAgukfWIfhkJ4XyR9O3zCJmdd3_kXZtRoCDm8QAvD_BwE",
+            "imgSource": "./img/suvinil-rende_e_cobre_muito.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Forros",
+        "forros": [
+          {
+            "id": "apartamentoForro de gesso",
+            "tipo": "Forro de gesso",
+            "area": 60.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ],
+        "tabicas": [
+          {
+            "id": "apartamentotabica",
+            "conjunto": "Tabica",
+            "comprimento": 34.5
+          }
+        ]
+      }
+    ]
+  },
+  "salaecozinha": {
+    "nome": "Sala e Cozinha",
+    "itens": [
+      {
+        "item": "Pisos e Revestimentos",
+        "pers": [
+          {
+            "id": "APTO-PIS-01",
+            "nome": "PIS-01",
+            "tipo": "Piso",
+            "area": 27.0,
+            "fabricante": "Portobello",
+            "especificacao": "Karst Off White",
+            "tipoDeMaterial": "Porcelanato",
+            "precoUnitario": 120.0,
+            "url": "https://www.portobello.com.br/produtos/karst/field-tile/karst-off-white/90x90-natural/25111E",
+            "imgSource": "./img/portobello-karst_off_white.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Pinturas",
+        "pinturas": [
+          {
+            "id": "APTO-PIN-02",
+            "nome": "PIN-02",
+            "tipo": "Tinta",
+            "area": 48.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Maciota",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 50.0,
+            "url": "https://www.suvinil.com.br/cores/leque-cores-digital/brancas-e-leves/maciota-b522/c0r",
+            "imgSource": "./img/suvinil-maciota.jpg"
+          },
+          {
+            "id": "APTO-PIN-01",
+            "nome": "PIN-01",
+            "tipo": "Tinta",
+            "area": 27.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Rende e Cobre Muito",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 35.0,
+            "url": "https://loja.suvinil.com.br/paredes/tinta-suvinil-rende-cobre-muito/78/pr0d?gclid=CjwKCAiAheacBhB8EiwAItVO2zZwOzyDMOEdHnLjoUC_tXyAgukfWIfhkJ4XyR9O3zCJmdd3_kXZtRoCDm8QAvD_BwE",
+            "imgSource": "./img/suvinil-rende_e_cobre_muito.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Forros",
+        "forros": [
+          {
+            "id": "Sala e CozinhaForro de gesso",
+            "tipo": "Forro de gesso",
+            "area": 27.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ],
+        "tabicas": [
+          {
+            "id": "Sala e Cozinhatabica",
+            "conjunto": "Tabica",
+            "comprimento": 21.4
+          }
+        ]
+      }
+    ]
+  },
+  "varanda": {
+    "nome": "Varanda",
+    "itens": [
+      {
+        "item": "Pisos e Revestimentos",
+        "pers": [
+          {
+            "id": "APTO-PIS-01",
+            "nome": "PIS-01",
+            "tipo": "Piso",
+            "area": 26.0,
+            "fabricante": "Portobello",
+            "especificacao": "Karst Off White",
+            "tipoDeMaterial": "Porcelanato",
+            "precoUnitario": 120.0,
+            "url": "https://www.portobello.com.br/produtos/karst/field-tile/karst-off-white/90x90-natural/25111E",
+            "imgSource": "./img/portobello-karst_off_white.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Pinturas",
+        "pinturas": [
+          {
+            "id": "APTO-PIN-01",
+            "nome": "PIN-01",
+            "tipo": "Tinta",
+            "area": 26.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Rende e Cobre Muito",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 35.0,
+            "url": "https://loja.suvinil.com.br/paredes/tinta-suvinil-rende-cobre-muito/78/pr0d?gclid=CjwKCAiAheacBhB8EiwAItVO2zZwOzyDMOEdHnLjoUC_tXyAgukfWIfhkJ4XyR9O3zCJmdd3_kXZtRoCDm8QAvD_BwE",
+            "imgSource": "./img/suvinil-rende_e_cobre_muito.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Forros",
+        "forros": [
+          {
+            "id": "VarandaForro de gesso",
+            "tipo": "Forro de gesso",
+            "area": 26.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ],
+        "tabicas": [
+          {
+            "id": "Varandatabica",
+            "conjunto": "Tabica",
+            "comprimento": 34.5
+          }
+        ]
+      }
+    ]
+  },
+  "areadeservico": {
+    "nome": "\u00c1rea de Servi\u00e7o",
+    "itens": [
+      {
+        "item": "Pisos e Revestimentos",
+        "pers": [
+          {
+            "id": "APTO-PIS-01",
+            "nome": "PIS-01",
+            "tipo": "Piso",
+            "area": 7.0,
+            "fabricante": "Portobello",
+            "especificacao": "Karst Off White",
+            "tipoDeMaterial": "Porcelanato",
+            "precoUnitario": 120.0,
+            "url": "https://www.portobello.com.br/produtos/karst/field-tile/karst-off-white/90x90-natural/25111E",
+            "imgSource": "./img/portobello-karst_off_white.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Pinturas",
+        "pinturas": [
+          {
+            "id": "APTO-PIN-02",
+            "nome": "PIN-02",
+            "tipo": "Tinta",
+            "area": 23.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Maciota",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 50.0,
+            "url": "https://www.suvinil.com.br/cores/leque-cores-digital/brancas-e-leves/maciota-b522/c0r",
+            "imgSource": "./img/suvinil-maciota.jpg"
+          },
+          {
+            "id": "APTO-PIN-01",
+            "nome": "PIN-01",
+            "tipo": "Tinta",
+            "area": 7.0,
+            "fabricante": "Suvinil",
+            "especificacao": "Rende e Cobre Muito",
+            "tipoDeMaterial": "Tinta l\u00e1tex",
+            "precoUnitario": 35.0,
+            "url": "https://loja.suvinil.com.br/paredes/tinta-suvinil-rende-cobre-muito/78/pr0d?gclid=CjwKCAiAheacBhB8EiwAItVO2zZwOzyDMOEdHnLjoUC_tXyAgukfWIfhkJ4XyR9O3zCJmdd3_kXZtRoCDm8QAvD_BwE",
+            "imgSource": "./img/suvinil-rende_e_cobre_muito.jpg"
+          }
+        ]
+      },
+      {
+        "item": "Forros",
+        "forros": [
+          {
+            "id": "\u00c1rea de Servi\u00e7oForro de gesso",
+            "tipo": "Forro de gesso",
+            "area": 7.0,
+            "imgSource": "./img/forro_de_gesso.jpg"
+          }
+        ],
+        "tabicas": []
+      }
+    ]
+  }
+}
