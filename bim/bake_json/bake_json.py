@@ -9,10 +9,10 @@ from package import controle
 from package import tags
 from package import modelos
 
-from package.contextos import demolicoes_e_infra
-from package.contextos import cobrimentos
-from package.contextos import marmoraria
-from package.contextos import marcenaria
+from package.etapas import demolicoes_infra
+from package.etapas import cobrimentos
+from package.etapas import marmoraria
+from package.etapas import marcenaria
 
 
 ifc = ifcopenshell.open("../apto01.ifc")
@@ -26,12 +26,12 @@ etapas_por_ambiente = helpers.gera_etapas_por_ambiente(ifc_ambientes, ifc_etapas
 
 contexto.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
 menu_principal.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
-menu_do_ambiente.bake_json(ifc_etapas_por_id, ifc_ambientes, etapas_por_ambiente)
+menu_do_ambiente.bake_json(etapas_por_ambiente)
 controle.bake_json(etapas_por_ambiente)
 # tags.bake_json(ifc_ambientes)
 modelos.bake_json(ifc_ambientes, ifc_etapas_por_id, etapas_por_ambiente, ifc_apartamento)
 
-demolicoes_e_infra.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
+demolicoes_infra.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
 cobrimentos.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
 marmoraria.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)
 marcenaria.bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_projeto)

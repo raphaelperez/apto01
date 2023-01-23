@@ -42,6 +42,6 @@ def bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_project):
             nome_curto_da_etapa = unidecode(nome_da_etapa.lower().replace(" ", ""))
             dados_do_menu_principal["ambientes"].append({"id": id, "nomeCurto": nome_curto_da_etapa, "nome": nome_da_etapa})
 
-    json_do_menu_principal = "../../web/src/components/menu/menus/menuPrincipal.json"
+    json_do_menu_principal = "../../web/src/componentes/menu/menus/menuPrincipal.json"
     with open(json_do_menu_principal, "w") as f:
         json.dump(dados_do_menu_principal, f, indent=2)

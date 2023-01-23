@@ -21,6 +21,6 @@ def bake_json(ifc_ambientes, ifc_etapas_por_id, ifc_project):
 
     dados_do_contexto["apartamento"] = "Apartamento"
 
-    json_do_contexto = "../../web/src/components/contexto/contexto.json"
+    json_do_contexto = "../../web/src/componentes/contexto/contexto.json"
     with open(json_do_contexto, "w") as f:
         json.dump(dados_do_contexto, f, indent=2)

@@ -149,15 +149,6 @@ def gera_modelos(ifc_ambientes, ifc_etapas_por_id):
                                             portas_da_etapa_anterior.append(porta)
                                             portas_da_sub_etapa_anterior.append(porta)
 
-    # portas = []
-    # portas_adicionadas = []
-    # for ambiente in modelos:
-    #     for etapa in modelos[ambiente]:
-    #         for porta in modelos[ambiente][etapa]["portas"]:
-    #             if porta not in portas_adicionadas:
-    #                 portas.append(porta)
-    #                 portas_adicionadas.append(porta)
-
     apartamento = {}
     for ambiente in modelos:
         for etapa in modelos[ambiente]:
@@ -186,19 +177,6 @@ def bake_json(ifc_ambientes, ifc_etapas_por_id, etapas_por_ambiente, ifc_apartam
 
     modelos = gera_modelos(ifc_ambientes, ifc_etapas_por_id)
 
-    json_modelos = "../../web/src/components/tresD/meshes/modelos.json"
+    json_modelos = "../../web/src/componentes/grafico3D/modelos/modelos.json"
     with open(json_modelos, "w") as f:
         json.dump(modelos, f, indent=2)
-
-    # dados_de_etapas = {}
-
-    # for ambiente in etapas_por_ambiente:
-    #     ambiente_min = etapas_por_ambiente[ambiente]["nome_min"]
-    #     dados_de_etapas[ambiente_min] = {}
-    #     for etapa in etapas_por_ambiente[ambiente]["etapas"]:
-    #         etapa_min = etapa["nome_min"]
-    #         dados_de_etapas[ambiente_min][etapa_min] = etapa_min
-
-    # json_etapas = "../../web/src/components/tresD/objetos/etapas.json"
-    # with open(json_etapas, "w") as f:
-    #     json.dump(dados_de_etapas, f, indent=2)

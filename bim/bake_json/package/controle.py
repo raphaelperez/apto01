@@ -16,6 +16,6 @@ def bake_json(etapas_por_ambiente):
                 dados_do_controle["apartamento"].append(nome_curto_da_etapa)
                 adicionado_a_apartamento.append(nome_curto_da_etapa)
 
-    json_do_controle = "../../web/src/components/controle/controle.json"
+    json_do_controle = "../../web/src/componentes/controle/controle.json"
     with open(json_do_controle, "w") as f:
         json.dump(dados_do_controle, f, indent=2)
